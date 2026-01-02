@@ -4,6 +4,7 @@ import os
 
 DATA_FILE = "tft_data.json"
 
+@st.cache_data(ttl=60) # 1분 캐싱 (파일 입출력 부하 감소)
 def load_data():
     """
     저장된 tft_data.json 파일을 읽어옵니다.
@@ -78,8 +79,22 @@ def main():
         st.title("♟️ TFT 실시간 메타 덱 추천")
     with col2:
         st.write("")
+        # JSON 파일 다시 읽기 버튼
         if st.button("🔄 화면 새로고침"):
+            load_data.clear() # 캐시 삭제
+            if "selected_champs" in st.session_state:
+                st.session_state["selected_champs"] = [] # 선택 초기화
             st.rerun()
+
+    data, error = load_data()
+
+    if error:
+        st.error(error)
+        if error == "MAINTENANCE":
+            show_maintenance_page()
+            return
+        st.warning("👉 서버 관리자: `python scraper.py`를 실행하여 데이터를 수집해 주세요.")
+        return
 
     st.markdown(f"""
     보유하고 있는 챔피언을 선택하면, **lolchess.gg**의 실시간 메타 데이터를 분석하여 
@@ -94,7 +109,8 @@ def main():
     selected_champs = st.multiselect(
         "현재 보유 중이거나 핵심으로 사용할 챔피언을 선택하세요:",
         options=all_champions,
-        placeholder="챔피언 검색 또는 선택..."
+        placeholder="챔피언 검색 또는 선택...",
+        key="selected_champs"
     )
 
     if selected_champs:
