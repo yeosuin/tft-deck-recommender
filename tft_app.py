@@ -2,6 +2,8 @@ import streamlit as st
 from curl_cffi import requests # 강력한 봇 탐지 우회
 from bs4 import BeautifulSoup
 import json
+import time
+import random
 
 # -----------------------------------------------------------------------------
 # 1. 백엔드 로직 (데이터 크롤링 및 처리)
@@ -9,25 +11,43 @@ import json
 
 @st.cache_data(ttl=3600)
 def fetch_tft_data():
-    # 한글 데이터 강제 요청 (?hl=ko-KR 추가)
-    url = "https://lolchess.gg/meta?hl=ko-KR"
-    
+    # 1. 세션 생성 (쿠키 유지를 위해)
+    session = requests.Session()
+
+    # 2. 헤더 설정 (더 사람처럼 보이게)
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Referer": "https://lolchess.gg/",
+        "Upgrade-Insecure-Requests": "1"
+    }
+
     try:
-        # 실제 크롬 브라우저인 척 위장하여 요청 (TLS Fingerprint 우회)
-        # 구체적인 버전을 명시하면 성공 확률이 높음
-        response = requests.get(
-            url, 
-            impersonate="chrome110",
-            headers={
-                "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
-                "Referer": "https://lolchess.gg/"
-            }
+        # 3. 홈 화면 먼저 방문 (쿠키 획득용)
+        # impersonate="chrome120" : 최신 브라우저 흉내
+        session.get("https://lolchess.gg/", headers=headers, impersonate="chrome120")
+
+        # 아주 짧은 대기 (사람인 척)
+        time.sleep(random.uniform(0.5, 1.5))
+
+        # 4. 실제 데이터 페이지 요청
+        url = "https://lolchess.gg/meta?hl=ko-KR"
+        response = session.get(
+            url,
+            headers=headers,
+            impersonate="chrome120"
         )
+
+        # 403 오류 체크
+        if response.status_code == 403:
+            return None, "서버에서 봇으로 인식하여 차단했습니다 (403 Error). 잠시 후 다시 시도하거나 로컬 환경에서 실행해주세요."
+
         response.raise_for_status()
-        
+
         soup = BeautifulSoup(response.text, 'html.parser')
         script_tag = soup.find('script', id='__NEXT_DATA__')
-        
+
         if not script_tag:
             return None, "데이터 스크립트를 찾을 수 없습니다."
 
@@ -40,7 +60,7 @@ def fetch_tft_data():
 
         for q in queries:
             query_key = q.get('queryKey', [])
-            
+
             # 아이템 정보 매핑
             if 'itemRefs' in query_key:
                 items = q.get('state', {}).get('data', {}).get('items', [])
@@ -61,12 +81,12 @@ def fetch_tft_data():
                             img_url = 'https:' + img_url
                     else:
                         img_url = ''
-                    
+
                     champion_map[c['key']] = {
                         'name': c['name'],
                         'image_url': img_url
                     }
-            
+
             # 덱 리스트
             if 'getGuideDecks' in query_key:
                 deck_list = q.get('state', {}).get('data', {}).get('guideDecks', [])
@@ -85,14 +105,14 @@ def fetch_tft_data():
                 champ_key = slot.get('champion')
                 if champ_key in champion_map:
                     champ_info = champion_map[champ_key].copy()
-                    
+
                     # 해당 챔피언의 추천 아이템 이미지 URL 추출
                     item_keys = slot.get('items', [])
                     champ_info['items'] = [item_map[k] for k in item_keys if k in item_map]
-                    
+
                     champions.append(champ_info)
                     all_champions_set.add(champ_info['name'])
-            
+
             if champions:
                 # 덱 상세 링크 생성
                 tb_key = deck.get('teamBuilderKey')
@@ -225,7 +245,7 @@ def main():
                     'match_count': count,
                     'matched_names': matched
                 })
-        
+
         recommendations.sort(key=lambda x: x['match_count'], reverse=True)
 
         st.divider()
@@ -235,7 +255,7 @@ def main():
             deck = rec['deck']
             match_count = rec['match_count']
             matched_names = rec['matched_names']
-            
+
             if rank == 1:
                 rank_badge, title_color = "🥇", "red"
             elif rank == 2:
@@ -250,7 +270,7 @@ def main():
                 button_html = ""
                 if deck.get('link'):
                     button_html = f'<a href="{deck["link"]}" target="_blank" class="guide-btn">공략 더보기 🔗</a>'
-                
+
                 header_html = f"""
                 <div class="deck-header">
                     <h4 style="margin: 0; padding: 0;">{rank_badge} Rank {rank} &nbsp;|&nbsp; <span style="color:{title_color}">{deck['name']}</span></h4>
@@ -258,17 +278,17 @@ def main():
                 </div>
                 """
                 st.markdown(header_html, unsafe_allow_html=True)
-                
+
                 # 일치 정보는 타이틀 아래에 배치
                 st.markdown(f"✅&nbsp;&nbsp;**{match_count}명 일치** :gray[({', '.join(matched_names)})]")
 
                 st.write("") # 간격
-                
+
                 # HTML로 챔피언 카드 나열 (CSS Flexbox 적용)
                 champ_html = '<div class="champ-container">'
                 for champ in deck['champions']:
                     is_mine = "mine" if champ['name'] in selected_champs else ""
-                    
+
                     # 아이템 HTML 생성
                     items_html = ""
                     if 'items' in champ and champ['items']:
@@ -279,7 +299,7 @@ def main():
 
                     champ_html += f"""<div class="champ-card"><img src="{champ['image_url']}" class="champ-img {is_mine}"><div class="champ-name {is_mine}">{champ['name']}</div>{items_html}</div>"""
                 champ_html += '</div>'
-                
+
                 st.markdown(champ_html, unsafe_allow_html=True)
 
     else:
