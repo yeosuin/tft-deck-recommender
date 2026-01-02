@@ -1,5 +1,5 @@
 import streamlit as st
-import requests
+import cloudscraper # 봇 탐지 우회 라이브러리
 from bs4 import BeautifulSoup
 import json
 
@@ -10,12 +10,12 @@ import json
 @st.cache_data(ttl=3600)
 def fetch_tft_data():
     url = "https://lolchess.gg/meta"
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-    }
+    
+    # cloudscraper를 사용하여 봇 탐지 우회
+    scraper = cloudscraper.create_scraper() 
 
     try:
-        response = requests.get(url, headers=headers)
+        response = scraper.get(url)
         response.raise_for_status()
         
         soup = BeautifulSoup(response.text, 'html.parser')
