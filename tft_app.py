@@ -1,5 +1,5 @@
 import streamlit as st
-import cloudscraper # 봇 탐지 우회 라이브러리
+from curl_cffi import requests # 강력한 봇 탐지 우회
 from bs4 import BeautifulSoup
 import json
 
@@ -9,13 +9,20 @@ import json
 
 @st.cache_data(ttl=3600)
 def fetch_tft_data():
-    url = "https://lolchess.gg/meta"
+    # 한글 데이터 강제 요청 (?hl=ko-KR 추가)
+    url = "https://lolchess.gg/meta?hl=ko-KR"
     
-    # cloudscraper를 사용하여 봇 탐지 우회
-    scraper = cloudscraper.create_scraper() 
-
     try:
-        response = scraper.get(url)
+        # 실제 크롬 브라우저인 척 위장하여 요청 (TLS Fingerprint 우회)
+        # 구체적인 버전을 명시하면 성공 확률이 높음
+        response = requests.get(
+            url, 
+            impersonate="chrome110",
+            headers={
+                "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+                "Referer": "https://lolchess.gg/"
+            }
+        )
         response.raise_for_status()
         
         soup = BeautifulSoup(response.text, 'html.parser')
