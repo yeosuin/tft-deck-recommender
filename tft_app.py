@@ -2,144 +2,89 @@ import streamlit as st
 import json
 import os
 
-# -----------------------------------------------------------------------------
-# 1. 백엔드 로직 (로컬 JSON 파일 읽기)
-# -----------------------------------------------------------------------------
+DATA_FILE = "/Users/iwmedia/개발/tft_data.json"
 
-@st.cache_data
-def load_tft_data_from_file():
-    # 같은 폴더에 있는 json 파일을 읽음
-    file_path = "tft_data.json"
-
-    if not os.path.exists(file_path):
-        return None, "데이터 파일(tft_data.json)이 없습니다. 로컬에서 scraper.py를 실행 후 파일을 올려주세요."
+def load_data():
+    """
+    저장된 tft_data.json 파일을 읽어옵니다.
+    """
+    if not os.path.exists(DATA_FILE):
+        return None, "데이터 파일이 없습니다. scraper.py를 먼저 실행해 주세요."
+    
+    if os.path.getsize(DATA_FILE) == 0:
+        return None, "데이터 파일이 비어있습니다. scraper.py를 다시 실행해 주세요."
 
     try:
-        with open(file_path, "r", encoding="utf-8") as f:
+        with open(DATA_FILE, 'r', encoding='utf-8') as f:
             data = json.load(f)
-
-        queries = data.get('props', {}).get('pageProps', {}).get('dehydratedState', {}).get('queries', [])
-
-        champion_map = {}
-        item_map = {}
-        deck_list = []
-
-        for q in queries:
-            query_key = q.get('queryKey', [])
-
-            # 아이템 정보 매핑
-            if 'itemRefs' in query_key:
-                items = q.get('state', {}).get('data', {}).get('items', [])
-                for item in items:
-                    img_url = item.get('imageUrl')
-                    if img_url and isinstance(img_url, str):
-                        if img_url.startswith('//'):
-                            img_url = 'https:' + img_url
-                        item_map[item['key']] = img_url
-
-            # 챔피언 정보 매핑
-            if 'championRefs' in query_key:
-                champs = q.get('state', {}).get('data', {}).get('champions', [])
-                for c in champs:
-                    img_url = c.get('imageUrl')
-                    if img_url and isinstance(img_url, str):
-                        if img_url.startswith('//'):
-                            img_url = 'https:' + img_url
-                    else:
-                        img_url = ''
-
-                    champion_map[c['key']] = {
-                        'name': c['name'],
-                        'image_url': img_url
-                    }
-
-            # 덱 리스트
-            if 'getGuideDecks' in query_key:
-                deck_list = q.get('state', {}).get('data', {}).get('guideDecks', [])
-
-        if not deck_list:
-            return None, "덱 리스트를 찾을 수 없습니다."
-
-        final_decks = []
-        all_champions_set = set()
-
-        for deck in deck_list:
-            deck_name = deck.get('name', 'Unknown Deck')
-            champions = []
-            slots = deck.get('data', {}).get('slots', [])
-            for slot in slots:
-                champ_key = slot.get('champion')
-                if champ_key in champion_map:
-                    champ_info = champion_map[champ_key].copy()
-
-                    # 해당 챔피언의 추천 아이템 이미지 URL 추출
-                    item_keys = slot.get('items', [])
-                    champ_info['items'] = [item_map[k] for k in item_keys if k in item_map]
-
-                    champions.append(champ_info)
-                    all_champions_set.add(champ_info['name'])
-
-            if champions:
-                tb_key = deck.get('teamBuilderKey')
-                deck_link = f"https://lolchess.gg/builder?deck={tb_key}" if tb_key else None
-
-                final_decks.append({
-                    'name': deck_name,
-                    'champions': champions,
-                    'champ_names': [c['name'] for c in champions],
-                    'link': deck_link
-                })
-
-        return {
-            'decks': final_decks,
-            'all_champions': sorted(list(all_champions_set))
-        }, None
-
+        return data, None
     except Exception as e:
-        return None, f"파일 읽기 오류: {str(e)}"
-
-# -----------------------------------------------------------------------------
-# 2. 프론트엔드 UI (Streamlit)
-# -----------------------------------------------------------------------------
+        return None, f"데이터 로드 중 오류: {e}"
 
 def main():
     st.set_page_config(page_title="TFT 덱 추천기", page_icon="♟️", layout="wide")
 
-    # CSS (기존과 동일)
+    # CSS 설정 (헤더 액션 숨김, 버튼 스타일, 아이템 표시 등)
     st.markdown("""
     <style>
         [data-testid="stHeaderActionElements"] { display: none; }
-        .deck-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
-        .guide-btn {
-            display: flex; align-items: center; justify-content: center; width: 110px; height: 32px;
-            background-color: transparent; border: 1px solid #555; border-radius: 4px; color: #ccc !important;
-            text-decoration: none !important; font-size: 12px; transition: all 0.2s ease; white-space: nowrap;
+        
+        .deck-header {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-bottom: 8px;
         }
-        .guide-btn:hover { border-color: #ff4b4b; color: #ff4b4b !important; background-color: rgba(255, 75, 75, 0.1); transform: translateY(-1px); }
+        .guide-btn {
+            display: flex; align-items: center; justify-content: center;
+            width: 110px; height: 32px; background-color: transparent;
+            border: 1px solid #555; border-radius: 4px; color: #ccc !important;
+            text-decoration: none !important; font-size: 12px; transition: all 0.2s ease;
+        }
+        .guide-btn:hover {
+            border-color: #ff4b4b; color: #ff4b4b !important;
+            background-color: rgba(255, 75, 75, 0.1); transform: translateY(-1px);
+        }
         .champ-container { display: flex; flex-wrap: wrap; gap: 12px; padding-bottom: 20px; }
-        .champ-card { width: 70px; display: flex; flex-direction: column; align-items: center; vertical-align: top; margin-bottom: 5px; }
-        .champ-img { width: 60px; height: 60px; object-fit: cover; border-radius: 6px; border: 2px solid #444; }
+        .champ-card { 
+            width: 70px; display: flex; flex-direction: column; 
+            align-items: center; vertical-align: top; margin-bottom: 5px;
+        }
+        .champ-img { 
+            width: 60px; height: 60px; object-fit: cover; 
+            border-radius: 6px; border: 2px solid #444; 
+        }
         .champ-img.mine { border-color: #ff4b4b; box-shadow: 0 0 8px rgba(255, 75, 75, 0.6); }
-        .champ-name { font-size: 11px; text-align: center; margin-top: 4px; color: #aaaaaa; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .champ-name { 
+            font-size: 11px; text-align: center; margin-top: 4px; 
+            color: #aaaaaa; width: 100%; white-space: nowrap; 
+            overflow: hidden; text-overflow: ellipsis;
+        }
         .champ-name.mine { color: #ff4b4b; font-weight: bold; }
         .item-container { display: flex; gap: 2px; margin-top: 3px; justify-content: center; flex-wrap: wrap; min-height: 18px; }
         .item-img { width: 16px; height: 16px; border-radius: 2px; border: 1px solid #222; }
     </style>
     """, unsafe_allow_html=True)
 
-    st.title("♟️ TFT 실시간 메타 덱 추천")
+    col1, col2 = st.columns([8, 2])
+    with col1:
+        st.title("♟️ TFT 실시간 메타 덱 추천")
+    with col2:
+        st.write("")
+        # JSON 파일 다시 읽기 버튼
+        if st.button("🔄 화면 새로고침"):
+            st.rerun()
 
-    st.markdown("""
-    보유하고 있는 챔피언을 선택하면, **lolchess.gg**의 메타 데이터를 분석하여 
-    가장 적합한 덱을 추천해 드립니다.
-    *(데이터 기준: 최근 업데이트)*
-    """)
-
-    data, error = load_tft_data_from_file()
+    data, error = load_data()
 
     if error:
         st.error(error)
+        st.warning("👉 서버 관리자: `python scraper.py`를 실행하여 데이터를 수집해 주세요.")
         return
+
+    st.markdown(f"""
+    보유하고 있는 챔피언을 선택하면, **lolchess.gg**의 실시간 메타 데이터를 분석하여 
+    가장 적합한 덱을 추천해 드립니다. 
+    *(마지막 업데이트: {data.get('updated_at', '알 수 없음')})*
+    """)
 
     all_decks = data['decks']
     all_champions = data['all_champions']
@@ -157,8 +102,12 @@ def main():
             matched = set(selected_champs).intersection(set(deck['champ_names']))
             count = len(matched)
             if count > 0:
-                recommendations.append({'deck': deck, 'match_count': count, 'matched_names': matched})
-
+                recommendations.append({
+                    'deck': deck,
+                    'match_count': count,
+                    'matched_names': matched
+                })
+        
         recommendations.sort(key=lambda x: x['match_count'], reverse=True)
 
         st.divider()
@@ -168,39 +117,45 @@ def main():
             deck = rec['deck']
             match_count = rec['match_count']
             matched_names = rec['matched_names']
-
-            if rank == 1: rank_badge, title_color = "🥇", "red"
-            elif rank == 2: rank_badge, title_color = "🥈", "orange"
-            elif rank == 3: rank_badge, title_color = "🥉", "green"
-            else: rank_badge, title_color = "🏅", "blue"
+            
+            if rank == 1:
+                rank_badge, title_color = "🥇", "red"
+            elif rank == 2:
+                rank_badge, title_color = "🥈", "orange"
+            elif rank == 3:
+                rank_badge, title_color = "🥉", "green"
+            else:
+                rank_badge, title_color = "🏅", "blue"
 
             with st.container(border=True):
-                button_html = ""
-                if deck.get('link'):
-                    button_html = f'<a href="{deck["link"]}" target="_blank" class="guide-btn">공략 더보기 🔗</a>'
-
+                btn_html = f'<a href="{deck["link"]}" target="_blank" class="guide-btn">공략 더보기 🔗</a>' if deck.get('link') else ""
+                
                 header_html = f"""
                 <div class="deck-header">
-                    <h4 style="margin: 0; padding: 0;">{rank_badge} Rank {rank} &nbsp;|&nbsp; <span style="color:{title_color}">{deck['name']}</span></h4>
-                    {button_html}
+                    <h4 style="margin:0;">{rank_badge} Rank {rank} &nbsp;|&nbsp; <span style="color:{title_color}">{deck['name']}</span></h4>
+                    {btn_html}
                 </div>
                 """
                 st.markdown(header_html, unsafe_allow_html=True)
                 st.markdown(f"✅&nbsp;&nbsp;**{match_count}명 일치** :gray[({', '.join(matched_names)})]")
                 st.write("")
-
+                
                 champ_html = '<div class="champ-container">'
-                for champ in deck['champions']:
-                    is_mine = "mine" if champ['name'] in selected_champs else ""
+                for c in deck['champions']:
+                    is_mine = "mine" if c['name'] in selected_champs else ""
+                    
                     items_html = ""
-                    if 'items' in champ and champ['items']:
+                    if 'items' in c and c['items']:
                         items_html = '<div class="item-container">'
-                        for item_url in champ['items']:
+                        for item_url in c['items']:
                             items_html += f'<img src="{item_url}" class="item-img">'
                         items_html += '</div>'
-                    champ_html += f"""<div class="champ-card"><img src="{champ['image_url']}" class="champ-img {is_mine}"><div class="champ-name {is_mine}">{champ['name']}</div>{items_html}</div>"""
+
+                    champ_html += f"""<div class="champ-card"><img src="{c['image_url']}" class="champ-img {is_mine}"><div class="champ-name {is_mine}">{c['name']}</div>{items_html}</div>"""
                 champ_html += '</div>'
+                
                 st.markdown(champ_html, unsafe_allow_html=True)
+
     else:
         st.info("챔피언을 선택하면 덱 추천이 시작됩니다.")
 
