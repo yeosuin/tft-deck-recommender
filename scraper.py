@@ -3,7 +3,7 @@ import time
 from curl_cffi import requests
 from bs4 import BeautifulSoup
 
-DATA_FILE = "/Users/iwmedia/개발/tft_data.json"
+DATA_FILE = "tft_data.json"
 
 def fetch_and_save_data():
     """
