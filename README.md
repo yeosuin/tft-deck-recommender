@@ -18,7 +18,7 @@
 *   **Language**: Python 3.9+
 *   **Web Framework**: [Streamlit](https://streamlit.io/)
 *   **Crawling**: `curl_cffi` (TLS Fingerprint 우회), `BeautifulSoup4`
-*   **Deployment**: Streamlit Cloud / AWS EC2 / Docker
+*   **Deployment**: Streamlit Cloud
 
 ## 🤖 Vibe Coding & AI
 
