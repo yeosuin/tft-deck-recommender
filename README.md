@@ -2,6 +2,9 @@
 
 사용자가 보유한 챔피언을 기반으로 **lolchess.gg**의 실시간 메타 데이터를 분석하여 최적의 TFT(전략적 팀 전투) 덱을 추천해 주는 웹 애플리케이션입니다.
 
+👉 **Demo**: https://tft-deck-recommender.streamlit.app/
+
+
 ## 🚀 주요 특징 (Key Features)
 
 *   **하이브리드 아키텍처 (Hybrid Architecture)**:
