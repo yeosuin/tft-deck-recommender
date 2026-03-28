@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25 02:34:41",
+  "updated_at": "2026-03-28 02:33:26",
   "decks": [
     {
       "name": "6비전 마법사 애니 사일",
@@ -252,6 +252,74 @@
         "리산드라"
       ],
       "link": "https://lolchess.gg/builder?deck=47df939a33d149969469adfb568d0ffd918249bc"
+    },
+    {
+      "name": "타곤 말자하 조이",
+      "champions": [
+        {
+          "name": "타릭",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Taric_1762916825-Taric.jpg",
+          "items": []
+        },
+        {
+          "name": "바이",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Vi_1762916266-Vi.jpg",
+          "items": []
+        },
+        {
+          "name": "니코",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Neeko_1762916183-Neeko.jpg",
+          "items": []
+        },
+        {
+          "name": "레오나",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Leona_1762916218-Leona.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
+            "https://cdn.lolchess.gg/upload/images/items/BrambleVest_1640058438.png",
+            "https://cdn.lolchess.gg/upload/images/items/DragonsClaw_1640058416.png"
+          ]
+        },
+        {
+          "name": "세라핀",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Seraphine_1762916313-Seraphine.jpg",
+          "items": []
+        },
+        {
+          "name": "코그모",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/KogMaw_1762916754-KogMaw.jpg",
+          "items": []
+        },
+        {
+          "name": "조이",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Zoe_1762916632-Zoe.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
+            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
+            "https://cdn.lolchess.gg/upload/images/items/HextechGunblade_1640058876.png"
+          ]
+        },
+        {
+          "name": "말자하",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Malzahar_1762916234-Malzahar.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
+            "https://cdn.lolchess.gg/upload/images/items/NashorsTooth_1693041452-3115_mage_t3_nashorstooth.png",
+            "https://cdn.lolchess.gg/upload/images/items/NashorsTooth_1693041452-3115_mage_t3_nashorstooth.png"
+          ]
+        }
+      ],
+      "champ_names": [
+        "타릭",
+        "바이",
+        "니코",
+        "레오나",
+        "세라핀",
+        "코그모",
+        "조이",
+        "말자하"
+      ],
+      "link": "https://lolchess.gg/builder?deck=a31264a78adcdad0aff1692a8d5423842e789c88"
     },
     {
       "name": "기동타격대 워윅",
@@ -552,74 +620,6 @@
         "코그모"
       ],
       "link": "https://lolchess.gg/builder?deck=98387787d286d9eead216c2bfa23a891dea7fe53"
-    },
-    {
-      "name": "타곤 말자하 조이",
-      "champions": [
-        {
-          "name": "타릭",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Taric_1762916825-Taric.jpg",
-          "items": []
-        },
-        {
-          "name": "바이",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Vi_1762916266-Vi.jpg",
-          "items": []
-        },
-        {
-          "name": "니코",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Neeko_1762916183-Neeko.jpg",
-          "items": []
-        },
-        {
-          "name": "레오나",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Leona_1762916218-Leona.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/BrambleVest_1640058438.png",
-            "https://cdn.lolchess.gg/upload/images/items/DragonsClaw_1640058416.png"
-          ]
-        },
-        {
-          "name": "세라핀",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Seraphine_1762916313-Seraphine.jpg",
-          "items": []
-        },
-        {
-          "name": "코그모",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/KogMaw_1762916754-KogMaw.jpg",
-          "items": []
-        },
-        {
-          "name": "조이",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Zoe_1762916632-Zoe.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
-            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
-            "https://cdn.lolchess.gg/upload/images/items/HextechGunblade_1640058876.png"
-          ]
-        },
-        {
-          "name": "말자하",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Malzahar_1762916234-Malzahar.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
-            "https://cdn.lolchess.gg/upload/images/items/NashorsTooth_1693041452-3115_mage_t3_nashorstooth.png",
-            "https://cdn.lolchess.gg/upload/images/items/NashorsTooth_1693041452-3115_mage_t3_nashorstooth.png"
-          ]
-        }
-      ],
-      "champ_names": [
-        "타릭",
-        "바이",
-        "니코",
-        "레오나",
-        "세라핀",
-        "코그모",
-        "조이",
-        "말자하"
-      ],
-      "link": "https://lolchess.gg/builder?deck=a31264a78adcdad0aff1692a8d5423842e789c88"
     },
     {
       "name": "킨드레드 루시안 밸류",
