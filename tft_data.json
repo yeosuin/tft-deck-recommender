@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-31 02:43:34",
+  "updated_at": "2026-04-01 02:55:20",
   "decks": [
     {
       "name": "데마시아 프렐 라이즈",
@@ -2539,79 +2539,7 @@
       "link": "https://lolchess.gg/builder?deck=c78d224c07e7a3933ca69ebed406251e4cc90b25"
     },
     {
-      "name": "문두 파수꾼 말자하",
-      "champions": [
-        {
-          "name": "로리스",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Loris_1762915693-Loris.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/Redemption_1748475217-5e0668acd02f73dfc316d1e02d2286f37149da08-512x512.png",
-            "https://cdn.lolchess.gg/upload/images/items/SteadfastHeart_1699383455-3084_tank_t4_heartsteel.png"
-          ]
-        },
-        {
-          "name": "노틸러스",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Nautilus_1762915628-Nautilus.jpg",
-          "items": []
-        },
-        {
-          "name": "노틸러스",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Nautilus_1762915628-Nautilus.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/BrambleVest_1640058438.png",
-            "https://cdn.lolchess.gg/upload/images/items/DragonsClaw_1640058416.png",
-            "https://cdn.lolchess.gg/upload/images/items/Redemption_1748475217-5e0668acd02f73dfc316d1e02d2286f37149da08-512x512.png"
-          ]
-        },
-        {
-          "name": "초가스",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/ChoGath_1762916690-ChoGath.jpg",
-          "items": []
-        },
-        {
-          "name": "로리스",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Loris_1762915693-Loris.jpg",
-          "items": []
-        },
-        {
-          "name": "말자하",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Malzahar_1762916234-Malzahar.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
-            "https://cdn.lolchess.gg/upload/images/items/NashorsTooth_1693041452-3115_mage_t3_nashorstooth.png",
-            "https://cdn.lolchess.gg/upload/images/items/NashorsTooth_1693041452-3115_mage_t3_nashorstooth.png"
-          ]
-        },
-        {
-          "name": "말자하",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Malzahar_1762916234-Malzahar.jpg",
-          "items": []
-        },
-        {
-          "name": "세라핀",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Seraphine_1762916313-Seraphine.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
-            "https://cdn.lolchess.gg/upload/images/items/Morellonomicon_1710231609-morellonomicon.png",
-            "https://cdn.lolchess.gg/upload/images/items/VoidStaff_1747207480-6f3e0c3861b876d768c4f9b501fbaabc585c3bc3-512x512.png"
-          ]
-        }
-      ],
-      "champ_names": [
-        "로리스",
-        "노틸러스",
-        "노틸러스",
-        "초가스",
-        "로리스",
-        "말자하",
-        "말자하",
-        "세라핀"
-      ],
-      "link": "https://lolchess.gg/builder?deck=c7133ee8fba36a9491a1a2230a668206b9846437"
-    },
-    {
-      "name": "[황혼의 시험] 자헨 1",
+      "name": "데마시아 자헨",
       "champions": [
         {
           "name": "뽀삐",
@@ -2689,7 +2617,7 @@
       "link": "https://lolchess.gg/builder?deck=8b3da833604f88c6ccc4413e4c4132e68df12b8f"
     },
     {
-      "name": "[황혼의 시험] 자헨 2",
+      "name": "아이오니아 자헨",
       "champions": [
         {
           "name": "야스오",
@@ -2759,6 +2687,78 @@
         "유나라"
       ],
       "link": "https://lolchess.gg/builder?deck=84b30afe0234786b822d3bad37e41f37580bc53f"
+    },
+    {
+      "name": "문두 파수꾼 말자하",
+      "champions": [
+        {
+          "name": "로리스",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Loris_1762915693-Loris.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
+            "https://cdn.lolchess.gg/upload/images/items/Redemption_1748475217-5e0668acd02f73dfc316d1e02d2286f37149da08-512x512.png",
+            "https://cdn.lolchess.gg/upload/images/items/SteadfastHeart_1699383455-3084_tank_t4_heartsteel.png"
+          ]
+        },
+        {
+          "name": "노틸러스",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Nautilus_1762915628-Nautilus.jpg",
+          "items": []
+        },
+        {
+          "name": "노틸러스",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Nautilus_1762915628-Nautilus.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/BrambleVest_1640058438.png",
+            "https://cdn.lolchess.gg/upload/images/items/DragonsClaw_1640058416.png",
+            "https://cdn.lolchess.gg/upload/images/items/Redemption_1748475217-5e0668acd02f73dfc316d1e02d2286f37149da08-512x512.png"
+          ]
+        },
+        {
+          "name": "초가스",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/ChoGath_1762916690-ChoGath.jpg",
+          "items": []
+        },
+        {
+          "name": "로리스",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Loris_1762915693-Loris.jpg",
+          "items": []
+        },
+        {
+          "name": "말자하",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Malzahar_1762916234-Malzahar.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
+            "https://cdn.lolchess.gg/upload/images/items/NashorsTooth_1693041452-3115_mage_t3_nashorstooth.png",
+            "https://cdn.lolchess.gg/upload/images/items/NashorsTooth_1693041452-3115_mage_t3_nashorstooth.png"
+          ]
+        },
+        {
+          "name": "말자하",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Malzahar_1762916234-Malzahar.jpg",
+          "items": []
+        },
+        {
+          "name": "세라핀",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Seraphine_1762916313-Seraphine.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
+            "https://cdn.lolchess.gg/upload/images/items/Morellonomicon_1710231609-morellonomicon.png",
+            "https://cdn.lolchess.gg/upload/images/items/VoidStaff_1747207480-6f3e0c3861b876d768c4f9b501fbaabc585c3bc3-512x512.png"
+          ]
+        }
+      ],
+      "champ_names": [
+        "로리스",
+        "노틸러스",
+        "노틸러스",
+        "초가스",
+        "로리스",
+        "말자하",
+        "말자하",
+        "세라핀"
+      ],
+      "link": "https://lolchess.gg/builder?deck=c7133ee8fba36a9491a1a2230a668206b9846437"
     },
     {
       "name": "[몰락한 왕] 비에고",
