@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-31 04:10:52",
+  "updated_at": "2026-06-01 04:25:04",
   "decks": [
     {
       "name": "유물별 챔피언 요약",
@@ -186,15 +186,15 @@
       "link": "https://lolchess.gg/builder?deck=af517a196d07244e3f8efe8be738019785b10cfd"
     },
     {
-      "name": "별돌보미 자야 (뱀)",
+      "name": "별돌보미 자야",
       "champions": [
         {
           "name": "탐 켄치",
           "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_TahmKench.jpg",
           "items": [
             "https://cdn.lolchess.gg/upload/images/items/BrambleVest_1640058438.png",
-            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
-            "https://cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png"
+            "https://cdn.lolchess.gg/upload/images/items/Redemption_1748475217-5e0668acd02f73dfc316d1e02d2286f37149da08-512x512.png",
+            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png"
           ]
         },
         {
@@ -207,11 +207,6 @@
           ]
         },
         {
-          "name": "라아스트",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Rhaast.jpg",
-          "items": []
-        },
-        {
           "name": "블리츠크랭크",
           "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Blitzcrank.jpg",
           "items": []
@@ -219,6 +214,11 @@
         {
           "name": "잭스",
           "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Jax.jpg",
+          "items": []
+        },
+        {
+          "name": "라아스트",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Rhaast.jpg",
           "items": []
         },
         {
@@ -253,15 +253,15 @@
       "champ_names": [
         "탐 켄치",
         "누누와 윌럼프",
-        "라아스트",
         "블리츠크랭크",
         "잭스",
+        "라아스트",
         "마오카이",
         "아트록스",
         "자야",
         "진"
       ],
-      "link": "https://lolchess.gg/builder?deck=4cf6014c482c2b0e30d69944dcec0ec13a0533e2"
+      "link": "https://lolchess.gg/builder?deck=c1e07bb06f876f7cde149abcb5495910890d55d2"
     },
     {
       "name": "정령족 코르키 리븐",
@@ -340,6 +340,92 @@
       "link": "https://lolchess.gg/builder?deck=7a5aa7ad2b5817b9a47d0c2ab920f5336d5c0684"
     },
     {
+      "name": "N.O.V.A. 그브 벡스",
+      "champions": [
+        {
+          "name": "아트록스",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Aatrox.jpg",
+          "items": []
+        },
+        {
+          "name": "아칼리",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Akali.jpg",
+          "items": []
+        },
+        {
+          "name": "라아스트",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Rhaast.jpg",
+          "items": []
+        },
+        {
+          "name": "쉔",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Shen.jpg",
+          "items": []
+        },
+        {
+          "name": "누누와 윌럼프",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Nunu.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png",
+            "https://cdn.lolchess.gg/upload/images/items/AdaptiveHelm_1693209131-6665_tank_t4_jakshotheprotean.png",
+            "https://cdn.lolchess.gg/upload/images/items/AdaptiveHelm_1693209131-6665_tank_t4_jakshotheprotean.png"
+          ]
+        },
+        {
+          "name": "블리츠크랭크",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Blitzcrank.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png"
+          ]
+        },
+        {
+          "name": "유물",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Relic_1775039613-relic.png",
+          "items": []
+        },
+        {
+          "name": "피오라",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Fiora.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/GiantSlayer_1670462997-giant_slayer.png",
+            "https://cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png",
+            "https://cdn.lolchess.gg/upload/images/items/SteraksGage_1693041113-3053_steraks_gage.png"
+          ]
+        },
+        {
+          "name": "그레이브즈",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Graves.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/GiantSlayer_1670462997-giant_slayer.png",
+            "https://cdn.lolchess.gg/upload/images/items/Quicksilver_1710231779-quicksilver.png",
+            "https://cdn.lolchess.gg/upload/images/items/LordsEdge_1710227794-death_blade.png"
+          ]
+        },
+        {
+          "name": "벡스",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Vex.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1710231593-guinsoos_rageblade.png",
+            "https://cdn.lolchess.gg/upload/images/items/RedBuffItem_1700526699-redbuff.png",
+            "https://cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png"
+          ]
+        }
+      ],
+      "champ_names": [
+        "아트록스",
+        "아칼리",
+        "라아스트",
+        "쉔",
+        "누누와 윌럼프",
+        "블리츠크랭크",
+        "유물",
+        "피오라",
+        "그레이브즈",
+        "벡스"
+      ],
+      "link": "https://lolchess.gg/builder?deck=0538e5e392caa05b41e302b18e0aefe2d04f6f95"
+    },
+    {
       "name": "습격자 마스터 이",
       "champions": [
         {
@@ -410,6 +496,148 @@
         "킨드레드"
       ],
       "link": "https://lolchess.gg/builder?deck=071bdf3614fbbaf0bc96d6189a8e2a61f1567a28"
+    },
+    {
+      "name": "도전자 미스 포츈",
+      "champions": [
+        {
+          "name": "우르곳",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Urgot.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/Bloodthirster_1710231772-bloodthirster.png",
+            "https://cdn.lolchess.gg/upload/images/items/SteraksGage_1693041113-3053_steraks_gage.png",
+            "https://cdn.lolchess.gg/upload/images/items/GiantSlayer_1670462997-giant_slayer.png"
+          ]
+        },
+        {
+          "name": "오른",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Ornn.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
+            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
+            "https://cdn.lolchess.gg/upload/images/items/DragonsClaw_1640058416.png"
+          ]
+        },
+        {
+          "name": "라아스트",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Rhaast.jpg",
+          "items": []
+        },
+        {
+          "name": "마오카이",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Maokai.jpg",
+          "items": []
+        },
+        {
+          "name": "아트록스",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Aatrox.jpg",
+          "items": []
+        },
+        {
+          "name": "벨베스",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Belveth.jpg",
+          "items": []
+        },
+        {
+          "name": "미스 포츈",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_MissFortune.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/InfinityEdge_1710231787-infinity_edge.png",
+            "https://cdn.lolchess.gg/upload/images/items/LordsEdge_1710227794-death_blade.png",
+            "https://cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1710231593-guinsoos_rageblade.png"
+          ]
+        }
+      ],
+      "champ_names": [
+        "우르곳",
+        "오른",
+        "라아스트",
+        "마오카이",
+        "아트록스",
+        "벨베스",
+        "미스 포츈"
+      ],
+      "link": "https://lolchess.gg/builder?deck=eb078bd220978601cc724182cfa0a391c2483ebb"
+    },
+    {
+      "name": "[상징] 우주 그루브 나미",
+      "champions": [
+        {
+          "name": "탐 켄치",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_TahmKench.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
+            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
+            "https://cdn.lolchess.gg/upload/images/items/BrambleVest_1640058438.png"
+          ]
+        },
+        {
+          "name": "블리츠크랭크",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Blitzcrank.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
+            "https://cdn.lolchess.gg/upload/images/items/HandofJustice_1710227464-hand_of_justice.png",
+            "https://cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png"
+          ]
+        },
+        {
+          "name": "오른",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Ornn.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png"
+          ]
+        },
+        {
+          "name": "판테온",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Pantheon.jpg",
+          "items": []
+        },
+        {
+          "name": "나서스",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Nasus.jpg",
+          "items": []
+        },
+        {
+          "name": "그웬",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Gwen.jpg",
+          "items": []
+        },
+        {
+          "name": "리븐",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Riven.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/Bloodthirster_1710231772-bloodthirster.png",
+            "https://cdn.lolchess.gg/upload/images/items/SteraksGage_1693041113-3053_steraks_gage.png",
+            "https://cdn.lolchess.gg/upload/images/items/SpaceGrooveEmblem_1774317514-TFT17_Emblem_SpaceGroove.TFT_Set17.png"
+          ]
+        },
+        {
+          "name": "나미",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Nami.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
+            "https://cdn.lolchess.gg/upload/images/items/NashorsTooth_1693041452-3115_mage_t3_nashorstooth.png",
+            "https://cdn.lolchess.gg/upload/images/items/NashorsTooth_1693041452-3115_mage_t3_nashorstooth.png"
+          ]
+        },
+        {
+          "name": "사미라",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Samira.jpg",
+          "items": []
+        }
+      ],
+      "champ_names": [
+        "탐 켄치",
+        "블리츠크랭크",
+        "오른",
+        "판테온",
+        "나서스",
+        "그웬",
+        "리븐",
+        "나미",
+        "사미라"
+      ],
+      "link": "https://lolchess.gg/builder?deck=42d516bc954f2c98f4a4f66218d4efca9746fb4b"
     },
     {
       "name": "[상징] 암흑의 별 아우솔",
@@ -502,234 +730,6 @@
       "link": "https://lolchess.gg/builder?deck=608b6d9473815fdbd273e9f5e471453f8f3047ec"
     },
     {
-      "name": "[상징] 길잡이 르블랑",
-      "champions": [
-        {
-          "name": "비아와 바이엔",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Summon.jpg",
-          "items": []
-        },
-        {
-          "name": "일라오이",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Illaoi.jpg",
-          "items": []
-        },
-        {
-          "name": "꼬마 정령",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_IvernMinion.jpg",
-          "items": []
-        },
-        {
-          "name": "레오나",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Leona.jpg",
-          "items": []
-        },
-        {
-          "name": "거대 메크 로봇",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Galio.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png"
-          ]
-        },
-        {
-          "name": "티모",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Teemo.jpg",
-          "items": []
-        },
-        {
-          "name": "리산드라",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Lissandra.jpg",
-          "items": []
-        },
-        {
-          "name": "소나",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Sona.jpg",
-          "items": []
-        },
-        {
-          "name": "카르마",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Karma.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/ShepherdEmblem_1774317503-TFT17_Emblem_Sheperd.TFT_Set17.png",
-            "https://cdn.lolchess.gg/upload/images/items/Morellonomicon_1710231609-morellonomicon.png",
-            "https://cdn.lolchess.gg/upload/images/items/VoidStaff_1747207480-6f3e0c3861b876d768c4f9b501fbaabc585c3bc3-512x512.png"
-          ]
-        },
-        {
-          "name": "르블랑",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Leblanc.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1710231593-guinsoos_rageblade.png",
-            "https://cdn.lolchess.gg/upload/images/items/GiantSlayer_1670462997-giant_slayer.png",
-            "https://cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png"
-          ]
-        }
-      ],
-      "champ_names": [
-        "비아와 바이엔",
-        "일라오이",
-        "꼬마 정령",
-        "레오나",
-        "거대 메크 로봇",
-        "티모",
-        "리산드라",
-        "소나",
-        "카르마",
-        "르블랑"
-      ],
-      "link": "https://lolchess.gg/builder?deck=1fbfb8e09212127327a457a78f7186cc1aa33c74"
-    },
-    {
-      "name": "N.O.V.A. 그브 벡스",
-      "champions": [
-        {
-          "name": "아트록스",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Aatrox.jpg",
-          "items": []
-        },
-        {
-          "name": "아칼리",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Akali.jpg",
-          "items": []
-        },
-        {
-          "name": "라아스트",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Rhaast.jpg",
-          "items": []
-        },
-        {
-          "name": "블리츠크랭크",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Blitzcrank.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png"
-          ]
-        },
-        {
-          "name": "누누와 윌럼프",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Nunu.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png",
-            "https://cdn.lolchess.gg/upload/images/items/AdaptiveHelm_1693209131-6665_tank_t4_jakshotheprotean.png",
-            "https://cdn.lolchess.gg/upload/images/items/AdaptiveHelm_1693209131-6665_tank_t4_jakshotheprotean.png"
-          ]
-        },
-        {
-          "name": "쉔",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Shen.jpg",
-          "items": []
-        },
-        {
-          "name": "유물",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Relic_1775039613-relic.png",
-          "items": []
-        },
-        {
-          "name": "피오라",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Fiora.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/GiantSlayer_1670462997-giant_slayer.png",
-            "https://cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png",
-            "https://cdn.lolchess.gg/upload/images/items/SteraksGage_1693041113-3053_steraks_gage.png"
-          ]
-        },
-        {
-          "name": "그레이브즈",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Graves.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/GiantSlayer_1670462997-giant_slayer.png",
-            "https://cdn.lolchess.gg/upload/images/items/Quicksilver_1710231779-quicksilver.png",
-            "https://cdn.lolchess.gg/upload/images/items/LordsEdge_1710227794-death_blade.png"
-          ]
-        },
-        {
-          "name": "벡스",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Vex.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1710231593-guinsoos_rageblade.png",
-            "https://cdn.lolchess.gg/upload/images/items/RedBuffItem_1700526699-redbuff.png",
-            "https://cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png"
-          ]
-        }
-      ],
-      "champ_names": [
-        "아트록스",
-        "아칼리",
-        "라아스트",
-        "블리츠크랭크",
-        "누누와 윌럼프",
-        "쉔",
-        "유물",
-        "피오라",
-        "그레이브즈",
-        "벡스"
-      ],
-      "link": "https://lolchess.gg/builder?deck=c76b2719bb2d46a1fed6ff91febea6215ee88468"
-    },
-    {
-      "name": "도전자 미스 포츈",
-      "champions": [
-        {
-          "name": "우르곳",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Urgot.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/LordsEdge_1710227794-death_blade.png",
-            "https://cdn.lolchess.gg/upload/images/items/Quicksilver_1710231779-quicksilver.png",
-            "https://cdn.lolchess.gg/upload/images/items/SteraksGage_1693041113-3053_steraks_gage.png"
-          ]
-        },
-        {
-          "name": "오른",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Ornn.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png",
-            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
-            "https://cdn.lolchess.gg/upload/images/items/SteadfastHeart_1699383455-3084_tank_t4_heartsteel.png"
-          ]
-        },
-        {
-          "name": "마오카이",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Maokai.jpg",
-          "items": []
-        },
-        {
-          "name": "라아스트",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Rhaast.jpg",
-          "items": []
-        },
-        {
-          "name": "벨베스",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Belveth.jpg",
-          "items": []
-        },
-        {
-          "name": "아트록스",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Aatrox.jpg",
-          "items": []
-        },
-        {
-          "name": "미스 포츈",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_MissFortune.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/InfinityEdge_1710231787-infinity_edge.png",
-            "https://cdn.lolchess.gg/upload/images/items/LordsEdge_1710227794-death_blade.png",
-            "https://cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1710231593-guinsoos_rageblade.png"
-          ]
-        }
-      ],
-      "champ_names": [
-        "우르곳",
-        "오른",
-        "마오카이",
-        "라아스트",
-        "벨베스",
-        "아트록스",
-        "미스 포츈"
-      ],
-      "link": "https://lolchess.gg/builder?deck=00515fb71707d4e1603b658c842d7927efb0dcf9"
-    },
-    {
       "name": "전달자 아우렐리온 솔",
       "champions": [
         {
@@ -814,6 +814,90 @@
         "아우렐리온 솔"
       ],
       "link": "https://lolchess.gg/builder?deck=b4dc465df045efc3d1e84e16e2adea43b853e866"
+    },
+    {
+      "name": "6암흑의 별 리산드라",
+      "champions": [
+        {
+          "name": "소형 블랙홀",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/MiniBlackHole_1775021247-tft17_darkstar_fakeunit_smallsplash.tft_set17.jpg",
+          "items": []
+        },
+        {
+          "name": "소형 블랙홀",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/MiniBlackHole_1775021247-tft17_darkstar_fakeunit_smallsplash.tft_set17.jpg",
+          "items": []
+        },
+        {
+          "name": "모데카이저",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Mordekaiser.jpg",
+          "items": []
+        },
+        {
+          "name": "거대 메크 로봇",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Galio.jpg",
+          "items": []
+        },
+        {
+          "name": "판테온",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Pantheon.jpg",
+          "items": []
+        },
+        {
+          "name": "초가스",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Chogath.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png",
+            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
+            "https://cdn.lolchess.gg/upload/images/items/BrambleVest_1640058438.png"
+          ]
+        },
+        {
+          "name": "진",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Jhin.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/InfinityEdge_1710231787-infinity_edge.png",
+            "https://cdn.lolchess.gg/upload/images/items/LastWhisper_1710227918-last_whisper.png",
+            "https://cdn.lolchess.gg/upload/images/items/GiantSlayer_1670462997-giant_slayer.png"
+          ]
+        },
+        {
+          "name": "카이사",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Kaisa.jpg",
+          "items": []
+        },
+        {
+          "name": "카르마",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Karma.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
+            "https://cdn.lolchess.gg/upload/images/items/Morellonomicon_1710231609-morellonomicon.png",
+            "https://cdn.lolchess.gg/upload/images/items/VoidStaff_1747207480-6f3e0c3861b876d768c4f9b501fbaabc585c3bc3-512x512.png"
+          ]
+        },
+        {
+          "name": "리산드라",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Lissandra.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
+            "https://cdn.lolchess.gg/upload/images/items/NashorsTooth_1693041452-3115_mage_t3_nashorstooth.png",
+            "https://cdn.lolchess.gg/upload/images/items/NashorsTooth_1693041452-3115_mage_t3_nashorstooth.png"
+          ]
+        }
+      ],
+      "champ_names": [
+        "소형 블랙홀",
+        "소형 블랙홀",
+        "모데카이저",
+        "거대 메크 로봇",
+        "판테온",
+        "초가스",
+        "진",
+        "카이사",
+        "카르마",
+        "리산드라"
+      ],
+      "link": "https://lolchess.gg/builder?deck=904ba649b88cafad057a9680e97dd0e22b574da7"
     },
     {
       "name": "6암흑의 별 진",
@@ -904,90 +988,6 @@
         "진"
       ],
       "link": "https://lolchess.gg/builder?deck=eb982d5d267ec09976ede51fe7a10b6aada80db8"
-    },
-    {
-      "name": "6암흑의 별 리산드라",
-      "champions": [
-        {
-          "name": "소형 블랙홀",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/MiniBlackHole_1775021247-tft17_darkstar_fakeunit_smallsplash.tft_set17.jpg",
-          "items": []
-        },
-        {
-          "name": "소형 블랙홀",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/MiniBlackHole_1775021247-tft17_darkstar_fakeunit_smallsplash.tft_set17.jpg",
-          "items": []
-        },
-        {
-          "name": "모데카이저",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Mordekaiser.jpg",
-          "items": []
-        },
-        {
-          "name": "거대 메크 로봇",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Galio.jpg",
-          "items": []
-        },
-        {
-          "name": "판테온",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Pantheon.jpg",
-          "items": []
-        },
-        {
-          "name": "초가스",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Chogath.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png",
-            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
-            "https://cdn.lolchess.gg/upload/images/items/BrambleVest_1640058438.png"
-          ]
-        },
-        {
-          "name": "진",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Jhin.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/InfinityEdge_1710231787-infinity_edge.png",
-            "https://cdn.lolchess.gg/upload/images/items/LastWhisper_1710227918-last_whisper.png",
-            "https://cdn.lolchess.gg/upload/images/items/GiantSlayer_1670462997-giant_slayer.png"
-          ]
-        },
-        {
-          "name": "카이사",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Kaisa.jpg",
-          "items": []
-        },
-        {
-          "name": "카르마",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Karma.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
-            "https://cdn.lolchess.gg/upload/images/items/Morellonomicon_1710231609-morellonomicon.png",
-            "https://cdn.lolchess.gg/upload/images/items/VoidStaff_1747207480-6f3e0c3861b876d768c4f9b501fbaabc585c3bc3-512x512.png"
-          ]
-        },
-        {
-          "name": "리산드라",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Lissandra.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
-            "https://cdn.lolchess.gg/upload/images/items/NashorsTooth_1693041452-3115_mage_t3_nashorstooth.png",
-            "https://cdn.lolchess.gg/upload/images/items/NashorsTooth_1693041452-3115_mage_t3_nashorstooth.png"
-          ]
-        }
-      ],
-      "champ_names": [
-        "소형 블랙홀",
-        "소형 블랙홀",
-        "모데카이저",
-        "거대 메크 로봇",
-        "판테온",
-        "초가스",
-        "진",
-        "카이사",
-        "카르마",
-        "리산드라"
-      ],
-      "link": "https://lolchess.gg/builder?deck=904ba649b88cafad057a9680e97dd0e22b574da7"
     },
     {
       "name": "[상징] 6암흑의 별 카이사",
@@ -1084,7 +1084,7 @@
       "link": "https://lolchess.gg/builder?deck=025858e5455ae8448e92225a4761855e0b8aaaf4"
     },
     {
-      "name": "길잡이 빅토르",
+      "name": "[상징] 길잡이 르블랑",
       "champions": [
         {
           "name": "비아와 바이엔",
@@ -1092,13 +1092,8 @@
           "items": []
         },
         {
-          "name": "모데카이저",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Mordekaiser.jpg",
-          "items": []
-        },
-        {
-          "name": "파이크",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Pyke.jpg",
+          "name": "일라오이",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Illaoi.jpg",
           "items": []
         },
         {
@@ -1107,20 +1102,23 @@
           "items": []
         },
         {
-          "name": "라아스트",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Rhaast.jpg",
+          "name": "레오나",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Leona.jpg",
+          "items": []
+        },
+        {
+          "name": "거대 메크 로봇",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Galio.jpg",
           "items": [
-            "https://cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png"
+            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
+            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
+            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png"
           ]
         },
         {
-          "name": "일라오이",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Illaoi.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
-            "https://cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png"
-          ]
+          "name": "티모",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Teemo.jpg",
+          "items": []
         },
         {
           "name": "리산드라",
@@ -1128,98 +1126,198 @@
           "items": []
         },
         {
-          "name": "나미",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Nami.jpg",
+          "name": "소나",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Sona.jpg",
+          "items": []
+        },
+        {
+          "name": "카르마",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Karma.jpg",
           "items": [
-            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
+            "https://cdn.lolchess.gg/upload/images/items/ShepherdEmblem_1774317503-TFT17_Emblem_Sheperd.TFT_Set17.png",
             "https://cdn.lolchess.gg/upload/images/items/Morellonomicon_1710231609-morellonomicon.png",
             "https://cdn.lolchess.gg/upload/images/items/VoidStaff_1747207480-6f3e0c3861b876d768c4f9b501fbaabc585c3bc3-512x512.png"
           ]
         },
         {
-          "name": "빅토르",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Viktor.jpg",
+          "name": "르블랑",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Leblanc.jpg",
           "items": [
-            "https://cdn.lolchess.gg/upload/images/items/DroneUplink_1774430033-Drone-Uplink.jpg",
-            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
+            "https://cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1710231593-guinsoos_rageblade.png",
+            "https://cdn.lolchess.gg/upload/images/items/GiantSlayer_1670462997-giant_slayer.png",
             "https://cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png"
           ]
         }
       ],
       "champ_names": [
         "비아와 바이엔",
-        "모데카이저",
-        "파이크",
-        "꼬마 정령",
-        "라아스트",
         "일라오이",
+        "꼬마 정령",
+        "레오나",
+        "거대 메크 로봇",
+        "티모",
         "리산드라",
-        "나미",
-        "빅토르"
+        "소나",
+        "카르마",
+        "르블랑"
       ],
-      "link": "https://lolchess.gg/builder?deck=e083706529e96de4f132fc4e00ee2e5da628f3a4"
+      "link": "https://lolchess.gg/builder?deck=1fbfb8e09212127327a457a78f7186cc1aa33c74"
     },
     {
-      "name": "메카 아우솔 (동특)",
+      "name": "[상징] N.O.V.A 킨드레드",
       "champions": [
         {
-          "name": "거대 메크 로봇",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Galio.jpg",
+          "name": "탐 켄치",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_TahmKench.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png",
+            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
+            "https://cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png"
+          ]
+        },
+        {
+          "name": "마오카이",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Maokai.jpg",
+          "items": []
+        },
+        {
+          "name": "아칼리",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Akali.jpg",
+          "items": []
+        },
+        {
+          "name": "아트록스",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Aatrox.jpg",
+          "items": []
+        },
+        {
+          "name": "마스터 이",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_MasterYi.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/GiantSlayer_1670462997-giant_slayer.png",
+            "https://cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png",
+            "https://cdn.lolchess.gg/upload/images/items/Quicksilver_1710231779-quicksilver.png"
+          ]
+        },
+        {
+          "name": "유물",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Relic_1775039613-relic.png",
+          "items": []
+        },
+        {
+          "name": "쉔",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Shen.jpg",
+          "items": []
+        },
+        {
+          "name": "피오라",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Fiora.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/NOVAEmblem_1774317458-TFT17_Emblem_NOVA.TFT_Set17.png",
+            "https://cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png",
+            "https://cdn.lolchess.gg/upload/images/items/SteraksGage_1693041113-3053_steraks_gage.png"
+          ]
+        },
+        {
+          "name": "벨베스",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Belveth.jpg",
+          "items": []
+        },
+        {
+          "name": "킨드레드",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Kindred.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1710231593-guinsoos_rageblade.png",
+            "https://cdn.lolchess.gg/upload/images/items/GiantSlayer_1670462997-giant_slayer.png",
+            "https://cdn.lolchess.gg/upload/images/items/LordsEdge_1710227794-death_blade.png"
+          ]
+        }
+      ],
+      "champ_names": [
+        "탐 켄치",
+        "마오카이",
+        "아칼리",
+        "아트록스",
+        "마스터 이",
+        "유물",
+        "쉔",
+        "피오라",
+        "벨베스",
+        "킨드레드"
+      ],
+      "link": "https://lolchess.gg/builder?deck=dff9a5a3162e3a34a8d397d10a022170538bf064"
+    },
+    {
+      "name": "별돌보미 룰루 (메달)",
+      "champions": [
+        {
+          "name": "잭스",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Jax.jpg",
           "items": [
             "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
             "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/TFT17_AnimaSquadItem_Tier2_LionessLament.jpg"
+            "https://cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png"
           ]
         },
         {
-          "name": "카르마",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Karma.jpg",
-          "items": []
-        },
-        {
-          "name": "아우렐리온 솔",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_AurelionSol.jpg",
+          "name": "마오카이",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Maokai.jpg",
           "items": [
-            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
-            "https://cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png",
-            "https://cdn.lolchess.gg/upload/images/items/TFT17_AnimaSquadItem_Tier2_Annihilator.jpg"
+            "https://cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png",
+            "https://cdn.lolchess.gg/upload/images/items/AdaptiveHelm_1693209131-6665_tank_t4_jakshotheprotean.png",
+            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png"
           ]
-        },
-        {
-          "name": "바드",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Bard.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
-            "https://cdn.lolchess.gg/upload/images/items/Morellonomicon_1710231609-morellonomicon.png",
-            "https://cdn.lolchess.gg/upload/images/items/VoidStaff_1747207480-6f3e0c3861b876d768c4f9b501fbaabc585c3bc3-512x512.png"
-          ]
-        },
-        {
-          "name": "모르가나",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Morgana.jpg",
-          "items": []
-        },
-        {
-          "name": "모데카이저",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Mordekaiser.jpg",
-          "items": []
         },
         {
           "name": "라아스트",
           "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Rhaast.jpg",
           "items": []
+        },
+        {
+          "name": "판테온",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Pantheon.jpg",
+          "items": []
+        },
+        {
+          "name": "아트록스",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Aatrox.jpg",
+          "items": []
+        },
+        {
+          "name": "룰루",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Lulu.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
+            "https://cdn.lolchess.gg/upload/images/items/NashorsTooth_1693041452-3115_mage_t3_nashorstooth.png",
+            "https://cdn.lolchess.gg/upload/images/items/NashorsTooth_1693041452-3115_mage_t3_nashorstooth.png"
+          ]
+        },
+        {
+          "name": "밀리오",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Milio.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
+            "https://cdn.lolchess.gg/upload/images/items/Morellonomicon_1710231609-morellonomicon.png",
+            "https://cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png"
+          ]
+        },
+        {
+          "name": "트위스티드 페이트",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_TwistedFate.jpg",
+          "items": []
         }
       ],
       "champ_names": [
-        "거대 메크 로봇",
-        "카르마",
-        "아우렐리온 솔",
-        "바드",
-        "모르가나",
-        "모데카이저",
-        "라아스트"
+        "잭스",
+        "마오카이",
+        "라아스트",
+        "판테온",
+        "아트록스",
+        "룰루",
+        "밀리오",
+        "트위스티드 페이트"
       ],
-      "link": "https://lolchess.gg/builder?deck=a16e9b50e8465c8086cd5a898705e1996cf02fcb"
+      "link": "https://lolchess.gg/builder?deck=157a75d834f2b2ae58794c06e71852bdff580058"
     },
     {
       "name": "중재자 다이애나 (동특)",
@@ -1294,84 +1392,134 @@
       "link": "https://lolchess.gg/builder?deck=548c6c787b7bbd585445a0bc8f503e13be602019"
     },
     {
-      "name": "[상징] 우주 그루브 나미",
+      "name": "메카 아우솔 (동특)",
       "champions": [
         {
-          "name": "탐 켄치",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_TahmKench.jpg",
+          "name": "거대 메크 로봇",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Galio.jpg",
           "items": [
             "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
-            "https://cdn.lolchess.gg/upload/images/items/BrambleVest_1640058438.png"
+            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
+            "https://cdn.lolchess.gg/upload/images/items/TFT17_AnimaSquadItem_Tier2_LionessLament.jpg"
           ]
         },
         {
-          "name": "블리츠크랭크",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Blitzcrank.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
-            "https://cdn.lolchess.gg/upload/images/items/HandofJustice_1710227464-hand_of_justice.png",
-            "https://cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png"
-          ]
-        },
-        {
-          "name": "오른",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Ornn.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png"
-          ]
-        },
-        {
-          "name": "판테온",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Pantheon.jpg",
+          "name": "카르마",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Karma.jpg",
           "items": []
         },
         {
-          "name": "나서스",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Nasus.jpg",
+          "name": "아우렐리온 솔",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_AurelionSol.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
+            "https://cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png",
+            "https://cdn.lolchess.gg/upload/images/items/TFT17_AnimaSquadItem_Tier2_Annihilator.jpg"
+          ]
+        },
+        {
+          "name": "바드",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Bard.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
+            "https://cdn.lolchess.gg/upload/images/items/Morellonomicon_1710231609-morellonomicon.png",
+            "https://cdn.lolchess.gg/upload/images/items/VoidStaff_1747207480-6f3e0c3861b876d768c4f9b501fbaabc585c3bc3-512x512.png"
+          ]
+        },
+        {
+          "name": "모르가나",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Morgana.jpg",
+          "items": []
+        },
+        {
+          "name": "모데카이저",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Mordekaiser.jpg",
+          "items": []
+        },
+        {
+          "name": "라아스트",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Rhaast.jpg",
+          "items": []
+        }
+      ],
+      "champ_names": [
+        "거대 메크 로봇",
+        "카르마",
+        "아우렐리온 솔",
+        "바드",
+        "모르가나",
+        "모데카이저",
+        "라아스트"
+      ],
+      "link": "https://lolchess.gg/builder?deck=a16e9b50e8465c8086cd5a898705e1996cf02fcb"
+    },
+    {
+      "name": "시간 균열자 파이크",
+      "champions": [
+        {
+          "name": "판테온",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Pantheon.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png",
+            "https://cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png",
+            "https://cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png"
+          ]
+        },
+        {
+          "name": "꼬마 정령",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_IvernMinion.jpg",
           "items": []
         },
         {
           "name": "그웬",
           "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Gwen.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
+            "https://cdn.lolchess.gg/upload/images/items/HandofJustice_1710227464-hand_of_justice.png",
+            "https://cdn.lolchess.gg/upload/images/items/Guardbreaker_1710231640-stridebreaker.png"
+          ]
+        },
+        {
+          "name": "그라가스",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Gragas.jpg",
+          "items": []
+        },
+        {
+          "name": "밀리오",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Milio.jpg",
+          "items": []
+        },
+        {
+          "name": "파이크",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Pyke.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/InfinityEdge_1710231787-infinity_edge.png",
+            "https://cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png",
+            "https://cdn.lolchess.gg/upload/images/items/TargetLockOptics_1774430056-Target-Lock-Optics.jpg"
+          ]
+        },
+        {
+          "name": "라아스트",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Rhaast.jpg",
           "items": []
         },
         {
           "name": "리븐",
           "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Riven.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/Bloodthirster_1710231772-bloodthirster.png",
-            "https://cdn.lolchess.gg/upload/images/items/SteraksGage_1693041113-3053_steraks_gage.png",
-            "https://cdn.lolchess.gg/upload/images/items/SpaceGrooveEmblem_1774317514-TFT17_Emblem_SpaceGroove.TFT_Set17.png"
-          ]
-        },
-        {
-          "name": "나미",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Nami.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
-            "https://cdn.lolchess.gg/upload/images/items/NashorsTooth_1693041452-3115_mage_t3_nashorstooth.png",
-            "https://cdn.lolchess.gg/upload/images/items/NashorsTooth_1693041452-3115_mage_t3_nashorstooth.png"
-          ]
-        },
-        {
-          "name": "사미라",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Samira.jpg",
           "items": []
         }
       ],
       "champ_names": [
-        "탐 켄치",
-        "블리츠크랭크",
-        "오른",
         "판테온",
-        "나서스",
+        "꼬마 정령",
         "그웬",
-        "리븐",
-        "나미",
-        "사미라"
+        "그라가스",
+        "밀리오",
+        "파이크",
+        "라아스트",
+        "리븐"
       ],
-      "link": "https://lolchess.gg/builder?deck=42d516bc954f2c98f4a4f66218d4efca9746fb4b"
+      "link": "https://lolchess.gg/builder?deck=8b4e9dfe195384020a2ea97c68192f871d64bb7a"
     },
     {
       "name": "여행자 카르마 나미",
@@ -1452,6 +1600,82 @@
       "link": "https://lolchess.gg/builder?deck=88d0b02916ca8fe885def6c14395445e5df85fcd"
     },
     {
+      "name": "길잡이 빅토르",
+      "champions": [
+        {
+          "name": "비아와 바이엔",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Summon.jpg",
+          "items": []
+        },
+        {
+          "name": "모데카이저",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Mordekaiser.jpg",
+          "items": []
+        },
+        {
+          "name": "파이크",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Pyke.jpg",
+          "items": []
+        },
+        {
+          "name": "꼬마 정령",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_IvernMinion.jpg",
+          "items": []
+        },
+        {
+          "name": "라아스트",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Rhaast.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png"
+          ]
+        },
+        {
+          "name": "일라오이",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Illaoi.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
+            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
+            "https://cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png"
+          ]
+        },
+        {
+          "name": "리산드라",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Lissandra.jpg",
+          "items": []
+        },
+        {
+          "name": "나미",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Nami.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
+            "https://cdn.lolchess.gg/upload/images/items/Morellonomicon_1710231609-morellonomicon.png",
+            "https://cdn.lolchess.gg/upload/images/items/VoidStaff_1747207480-6f3e0c3861b876d768c4f9b501fbaabc585c3bc3-512x512.png"
+          ]
+        },
+        {
+          "name": "빅토르",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Viktor.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/DroneUplink_1774430033-Drone-Uplink.jpg",
+            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
+            "https://cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png"
+          ]
+        }
+      ],
+      "champ_names": [
+        "비아와 바이엔",
+        "모데카이저",
+        "파이크",
+        "꼬마 정령",
+        "라아스트",
+        "일라오이",
+        "리산드라",
+        "나미",
+        "빅토르"
+      ],
+      "link": "https://lolchess.gg/builder?deck=e083706529e96de4f132fc4e00ee2e5da628f3a4"
+    },
+    {
       "name": "전달자 미스 포츈",
       "champions": [
         {
@@ -1514,146 +1738,6 @@
         "빅토르"
       ],
       "link": "https://lolchess.gg/builder?deck=4ce61d306a9e97f9970b055b436f40d19c9fb4e5"
-    },
-    {
-      "name": "별돌보미 룰루 (메달)",
-      "champions": [
-        {
-          "name": "잭스",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Jax.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png"
-          ]
-        },
-        {
-          "name": "마오카이",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Maokai.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png",
-            "https://cdn.lolchess.gg/upload/images/items/AdaptiveHelm_1693209131-6665_tank_t4_jakshotheprotean.png",
-            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png"
-          ]
-        },
-        {
-          "name": "라아스트",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Rhaast.jpg",
-          "items": []
-        },
-        {
-          "name": "판테온",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Pantheon.jpg",
-          "items": []
-        },
-        {
-          "name": "아트록스",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Aatrox.jpg",
-          "items": []
-        },
-        {
-          "name": "룰루",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Lulu.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
-            "https://cdn.lolchess.gg/upload/images/items/NashorsTooth_1693041452-3115_mage_t3_nashorstooth.png",
-            "https://cdn.lolchess.gg/upload/images/items/NashorsTooth_1693041452-3115_mage_t3_nashorstooth.png"
-          ]
-        },
-        {
-          "name": "밀리오",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Milio.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
-            "https://cdn.lolchess.gg/upload/images/items/Morellonomicon_1710231609-morellonomicon.png",
-            "https://cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png"
-          ]
-        },
-        {
-          "name": "트위스티드 페이트",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_TwistedFate.jpg",
-          "items": []
-        }
-      ],
-      "champ_names": [
-        "잭스",
-        "마오카이",
-        "라아스트",
-        "판테온",
-        "아트록스",
-        "룰루",
-        "밀리오",
-        "트위스티드 페이트"
-      ],
-      "link": "https://lolchess.gg/builder?deck=157a75d834f2b2ae58794c06e71852bdff580058"
-    },
-    {
-      "name": "시간 균열자 파이크",
-      "champions": [
-        {
-          "name": "판테온",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Pantheon.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png",
-            "https://cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png",
-            "https://cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png"
-          ]
-        },
-        {
-          "name": "꼬마 정령",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_IvernMinion.jpg",
-          "items": []
-        },
-        {
-          "name": "그웬",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Gwen.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
-            "https://cdn.lolchess.gg/upload/images/items/HandofJustice_1710227464-hand_of_justice.png",
-            "https://cdn.lolchess.gg/upload/images/items/Guardbreaker_1710231640-stridebreaker.png"
-          ]
-        },
-        {
-          "name": "그라가스",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Gragas.jpg",
-          "items": []
-        },
-        {
-          "name": "밀리오",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Milio.jpg",
-          "items": []
-        },
-        {
-          "name": "파이크",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Pyke.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/InfinityEdge_1710231787-infinity_edge.png",
-            "https://cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png",
-            "https://cdn.lolchess.gg/upload/images/items/TargetLockOptics_1774430056-Target-Lock-Optics.jpg"
-          ]
-        },
-        {
-          "name": "라아스트",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Rhaast.jpg",
-          "items": []
-        },
-        {
-          "name": "리븐",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Riven.jpg",
-          "items": []
-        }
-      ],
-      "champ_names": [
-        "판테온",
-        "꼬마 정령",
-        "그웬",
-        "그라가스",
-        "밀리오",
-        "파이크",
-        "라아스트",
-        "리븐"
-      ],
-      "link": "https://lolchess.gg/builder?deck=8b4e9dfe195384020a2ea97c68192f871d64bb7a"
     },
     {
       "name": "4선봉대 티모",
@@ -1806,90 +1890,6 @@
         "르블랑"
       ],
       "link": "https://lolchess.gg/builder?deck=c21f909768502e2753ddfa2d509cf938562c8449"
-    },
-    {
-      "name": "[상징] N.O.V.A 킨드레드",
-      "champions": [
-        {
-          "name": "탐 켄치",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_TahmKench.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png",
-            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
-            "https://cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png"
-          ]
-        },
-        {
-          "name": "마오카이",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Maokai.jpg",
-          "items": []
-        },
-        {
-          "name": "아칼리",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Akali.jpg",
-          "items": []
-        },
-        {
-          "name": "아트록스",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Aatrox.jpg",
-          "items": []
-        },
-        {
-          "name": "마스터 이",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_MasterYi.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/GiantSlayer_1670462997-giant_slayer.png",
-            "https://cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png",
-            "https://cdn.lolchess.gg/upload/images/items/Quicksilver_1710231779-quicksilver.png"
-          ]
-        },
-        {
-          "name": "유물",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Relic_1775039613-relic.png",
-          "items": []
-        },
-        {
-          "name": "쉔",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Shen.jpg",
-          "items": []
-        },
-        {
-          "name": "피오라",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Fiora.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/NOVAEmblem_1774317458-TFT17_Emblem_NOVA.TFT_Set17.png",
-            "https://cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png",
-            "https://cdn.lolchess.gg/upload/images/items/SteraksGage_1693041113-3053_steraks_gage.png"
-          ]
-        },
-        {
-          "name": "벨베스",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Belveth.jpg",
-          "items": []
-        },
-        {
-          "name": "킨드레드",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Kindred.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1710231593-guinsoos_rageblade.png",
-            "https://cdn.lolchess.gg/upload/images/items/GiantSlayer_1670462997-giant_slayer.png",
-            "https://cdn.lolchess.gg/upload/images/items/LordsEdge_1710227794-death_blade.png"
-          ]
-        }
-      ],
-      "champ_names": [
-        "탐 켄치",
-        "마오카이",
-        "아칼리",
-        "아트록스",
-        "마스터 이",
-        "유물",
-        "쉔",
-        "피오라",
-        "벨베스",
-        "킨드레드"
-      ],
-      "link": "https://lolchess.gg/builder?deck=dff9a5a3162e3a34a8d397d10a022170538bf064"
     },
     {
       "name": "[상징] 6암흑의 별 자야",
