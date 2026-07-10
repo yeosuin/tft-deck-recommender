@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07 03:43:08",
+  "updated_at": "2026-07-10 03:38:15",
   "decks": [
     {
       "name": "유물별 챔피언 요약",
@@ -436,74 +436,6 @@
       "link": "https://lolchess.gg/builder?deck=215143f47ad4222c2a1e022797b317734b09ed2d"
     },
     {
-      "name": "메카 아우솔 (동특)",
-      "champions": [
-        {
-          "name": "거대 메크 로봇",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Galio.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/TFT17_AnimaSquadItem_Tier2_LionessLament.jpg"
-          ]
-        },
-        {
-          "name": "모르가나",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Morgana.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
-            "https://cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png"
-          ]
-        },
-        {
-          "name": "카르마",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Karma.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/Morellonomicon_1710231609-morellonomicon.png",
-            "https://cdn.lolchess.gg/upload/images/items/VoidStaff_1747207480-6f3e0c3861b876d768c4f9b501fbaabc585c3bc3-512x512.png",
-            "https://cdn.lolchess.gg/upload/images/items/AdaptiveHelm_1693209131-6665_tank_t4_jakshotheprotean.png"
-          ]
-        },
-        {
-          "name": "아우렐리온 솔",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_AurelionSol.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
-            "https://cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png",
-            "https://cdn.lolchess.gg/upload/images/items/TFT17_AnimaSquadItem_Tier2_Annihilator.jpg"
-          ]
-        },
-        {
-          "name": "모데카이저",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Mordekaiser.jpg",
-          "items": []
-        },
-        {
-          "name": "블리츠크랭크",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Blitzcrank.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png"
-          ]
-        },
-        {
-          "name": "라아스트",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Rhaast.jpg",
-          "items": []
-        }
-      ],
-      "champ_names": [
-        "거대 메크 로봇",
-        "모르가나",
-        "카르마",
-        "아우렐리온 솔",
-        "모데카이저",
-        "블리츠크랭크",
-        "라아스트"
-      ],
-      "link": "https://lolchess.gg/builder?deck=9535d332315f2752e4ea51d656d30e056f1c88f1"
-    },
-    {
       "name": "N.O.V.A. 그브 벡스",
       "champions": [
         {
@@ -674,6 +606,74 @@
         "소나"
       ],
       "link": "https://lolchess.gg/builder?deck=588275b9754d8561462e51f0b2d89cc9ff022860"
+    },
+    {
+      "name": "메카 아우솔 (동특)",
+      "champions": [
+        {
+          "name": "거대 메크 로봇",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Galio.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
+            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
+            "https://cdn.lolchess.gg/upload/images/items/TFT17_AnimaSquadItem_Tier2_LionessLament.jpg"
+          ]
+        },
+        {
+          "name": "모르가나",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Morgana.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
+            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
+            "https://cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png"
+          ]
+        },
+        {
+          "name": "카르마",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Karma.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/Morellonomicon_1710231609-morellonomicon.png",
+            "https://cdn.lolchess.gg/upload/images/items/VoidStaff_1747207480-6f3e0c3861b876d768c4f9b501fbaabc585c3bc3-512x512.png",
+            "https://cdn.lolchess.gg/upload/images/items/AdaptiveHelm_1693209131-6665_tank_t4_jakshotheprotean.png"
+          ]
+        },
+        {
+          "name": "아우렐리온 솔",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_AurelionSol.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
+            "https://cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png",
+            "https://cdn.lolchess.gg/upload/images/items/TFT17_AnimaSquadItem_Tier2_Annihilator.jpg"
+          ]
+        },
+        {
+          "name": "모데카이저",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Mordekaiser.jpg",
+          "items": []
+        },
+        {
+          "name": "블리츠크랭크",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Blitzcrank.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png"
+          ]
+        },
+        {
+          "name": "라아스트",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TFT17_Rhaast.jpg",
+          "items": []
+        }
+      ],
+      "champ_names": [
+        "거대 메크 로봇",
+        "모르가나",
+        "카르마",
+        "아우렐리온 솔",
+        "모데카이저",
+        "블리츠크랭크",
+        "라아스트"
+      ],
+      "link": "https://lolchess.gg/builder?deck=9535d332315f2752e4ea51d656d30e056f1c88f1"
     },
     {
       "name": "[쌍두마차] 사미라",
