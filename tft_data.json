@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19 03:49:39",
+  "updated_at": "2026-09-22 04:00:42",
   "decks": [
     {
       "name": "유물별 챔피언 요약",
@@ -198,54 +198,62 @@
       "link": "https://lolchess.gg/builder?deck=3540cd9eca4571fdbc7b49527fa2fefd64ee25e6"
     },
     {
-      "name": "고밸류 드레이븐",
+      "name": "달빛 다이애나 카직스",
       "champions": [
+        {
+          "name": "헤카림",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Hecarim_1783677165-Hecarim.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
+            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
+            "https://cdn.lolchess.gg/upload/images/items/Redemption_1748475217-5e0668acd02f73dfc316d1e02d2286f37149da08-512x512.png"
+          ]
+        },
+        {
+          "name": "다이애나",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Diana_1783676762-Diana.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
+            "https://cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png",
+            "https://cdn.lolchess.gg/upload/images/items/Bloodthirster_1710231772-bloodthirster.png"
+          ]
+        },
         {
           "name": "돌껍질 나무",
           "image_url": "https://cdn.lolchess.gg/upload/images/champions/StonebarkTree_1785316566-StonebarkTree.png",
           "items": []
         },
         {
-          "name": "타릭",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Taric_1783677144-Taric.jpg",
-          "items": []
-        },
-        {
-          "name": "알리스타",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Alistar_1783676943-Alistar.jpg",
-          "items": []
-        },
-        {
-          "name": "아무무",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Amumu_1783676909-Amumu.jpg",
-          "items": []
-        },
-        {
-          "name": "케넨",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Kennen_1783677113-Kennen.jpg",
+          "name": "카직스",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/KhaZix_1783677087-Khazix.jpg",
           "items": [
-            "https://cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png"
+            "https://cdn.lolchess.gg/upload/images/items/HandofJustice_1710227464-hand_of_justice.png",
+            "https://cdn.lolchess.gg/upload/images/items/HandofJustice_1710227464-hand_of_justice.png",
+            "https://cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png"
           ]
         },
         {
-          "name": "마오카이",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Maokai_1783676844-Maokai.jpg",
+          "name": "피들스틱",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Fiddlesticks_1783677159-Fiddlesticks.jpg",
+          "items": []
+        },
+        {
+          "name": "이즈리얼",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ezreal_1783676984-Ezreal.jpg",
           "items": [
-            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
-            "https://cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png"
+            "https://cdn.lolchess.gg/upload/images/items/LordsEdge_1710227794-death_blade.png",
+            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
+            "https://cdn.lolchess.gg/upload/images/items/RedBuffItem_1700526699-redbuff.png"
           ]
         },
         {
-          "name": "나르",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Gnar_1783676749-Gnar.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png"
-          ]
+          "name": "알룬",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Alune_1783676936-Alune.jpg",
+          "items": []
         },
         {
-          "name": "아이번",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ivern_1783676914-Ivern.jpg",
+          "name": "소라카",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Soraka_1783676890-Soraka.jpg",
           "items": []
         },
         {
@@ -254,38 +262,24 @@
           "items": []
         },
         {
-          "name": "이즈리얼",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ezreal_1783676984-Ezreal.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/LordsEdge_1710227794-death_blade.png",
-            "https://cdn.lolchess.gg/upload/images/items/LastWhisper_1710227918-last_whisper.png",
-            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png"
-          ]
-        },
-        {
-          "name": "드레이븐",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Draven_1783676787-Draven.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1710231593-guinsoos_rageblade.png",
-            "https://cdn.lolchess.gg/upload/images/items/RunaansHurricane_1748474476-54e36c2efc36a585799d963fccb76e10f8d51da6-512x512.png",
-            "https://cdn.lolchess.gg/upload/images/items/RunaansHurricane_1748474476-54e36c2efc36a585799d963fccb76e10f8d51da6-512x512.png"
-          ]
+          "name": "오른",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ornn_1783676965-Ornn.jpg",
+          "items": []
         }
       ],
       "champ_names": [
+        "헤카림",
+        "다이애나",
         "돌껍질 나무",
-        "타릭",
-        "알리스타",
-        "아무무",
-        "케넨",
-        "마오카이",
-        "나르",
-        "아이번",
-        "생명꽃",
+        "카직스",
+        "피들스틱",
         "이즈리얼",
-        "드레이븐"
+        "알룬",
+        "소라카",
+        "생명꽃",
+        "오른"
       ],
-      "link": "https://lolchess.gg/builder?deck=2b676d41ee6feee805a31283c116eb212c81a60a"
+      "link": "https://lolchess.gg/builder?deck=8b4f9fd58bfa13f554e6182f4ab8e63e8a037322"
     },
     {
       "name": "니달리 아펠리오스",
@@ -436,6 +430,146 @@
       "link": "https://lolchess.gg/builder?deck=c413185c18795f7bbd02a6629fa5e01465120c74"
     },
     {
+      "name": "나무정령 베이가",
+      "champions": [
+        {
+          "name": "오른",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ornn_1783676965-Ornn.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
+            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
+            "https://cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png"
+          ]
+        },
+        {
+          "name": "돌껍질 나무",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/StonebarkTree_1785316566-StonebarkTree.png",
+          "items": []
+        },
+        {
+          "name": "르블랑",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/LeBlanc_1783676828-Leblanc.jpg",
+          "items": []
+        },
+        {
+          "name": "생명꽃",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Lifebloom_1785316584-Lifebloom.png",
+          "items": []
+        },
+        {
+          "name": "베이가",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Veigar_1783676874-Veigar.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/images/tft/item/BlueBuff.png",
+            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
+            "https://cdn.lolchess.gg/upload/images/items/PBEDawncore_1752038401-Dawncore.png"
+          ]
+        },
+        {
+          "name": "카시오페아",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Cassiopeia_1783677081-Cassiopeia.jpg",
+          "items": []
+        },
+        {
+          "name": "피들스틱",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Fiddlesticks_1783677159-Fiddlesticks.jpg",
+          "items": []
+        },
+        {
+          "name": "알리스타",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Alistar_1783676943-Alistar.jpg",
+          "items": []
+        },
+        {
+          "name": "렉사이",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/RekSai_1783676815-Reksai.jpg",
+          "items": []
+        }
+      ],
+      "champ_names": [
+        "오른",
+        "돌껍질 나무",
+        "르블랑",
+        "생명꽃",
+        "베이가",
+        "카시오페아",
+        "피들스틱",
+        "알리스타",
+        "렉사이"
+      ],
+      "link": "https://lolchess.gg/builder?deck=cff64403e21c354a5f9aae7523c46984382ac03f"
+    },
+    {
+      "name": "장로 드래곤 드레이븐",
+      "champions": [
+        {
+          "name": "타릭",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Taric_1783677144-Taric.jpg",
+          "items": []
+        },
+        {
+          "name": "감시자",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/AncientSentinel_1783677366-Sentinel.jpg",
+          "items": []
+        },
+        {
+          "name": "아무무",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Amumu_1783676909-Amumu.jpg",
+          "items": []
+        },
+        {
+          "name": "마오카이",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Maokai_1783676844-Maokai.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
+            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
+            "https://cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png"
+          ]
+        },
+        {
+          "name": "케넨",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Kennen_1783677113-Kennen.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png"
+          ]
+        },
+        {
+          "name": "장로 드래곤",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TheElderDragon_1783677052-ElderDragon.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/InfinityEdge_1710231787-infinity_edge.png",
+            "https://cdn.lolchess.gg/upload/images/items/LastWhisper_1710227918-last_whisper.png",
+            "https://cdn.lolchess.gg/upload/images/items/Guardbreaker_1710231640-stridebreaker.png"
+          ]
+        },
+        {
+          "name": "아이번",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ivern_1783676914-Ivern.jpg",
+          "items": []
+        },
+        {
+          "name": "드레이븐",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Draven_1783676787-Draven.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1710231593-guinsoos_rageblade.png",
+            "https://cdn.lolchess.gg/upload/images/items/RunaansHurricane_1748474476-54e36c2efc36a585799d963fccb76e10f8d51da6-512x512.png",
+            "https://cdn.lolchess.gg/upload/images/items/RunaansHurricane_1748474476-54e36c2efc36a585799d963fccb76e10f8d51da6-512x512.png"
+          ]
+        }
+      ],
+      "champ_names": [
+        "타릭",
+        "감시자",
+        "아무무",
+        "마오카이",
+        "케넨",
+        "장로 드래곤",
+        "아이번",
+        "드레이븐"
+      ],
+      "link": "https://lolchess.gg/builder?deck=301fa9a3daba63f50ac57f4904930721109a3526"
+    },
+    {
       "name": "장로 드래곤 애쉬",
       "champions": [
         {
@@ -506,6 +640,80 @@
         "애쉬"
       ],
       "link": "https://lolchess.gg/builder?deck=d8c8616eee053bacb1e00724423f852b4ffe5c42"
+    },
+    {
+      "name": "사냥꾼 시비르 말파이트",
+      "champions": [
+        {
+          "name": "말파이트",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Malphite_1783676849-Malphite.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
+            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
+            "https://cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png"
+          ]
+        },
+        {
+          "name": "니달리",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Nidalee_1783676756-Nidalee.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/InfinityEdge_1710231787-infinity_edge.png",
+            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
+            "https://cdn.lolchess.gg/upload/images/items/SteraksGage_1693041113-3053_steraks_gage.png"
+          ]
+        },
+        {
+          "name": "렉사이",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/RekSai_1783676815-Reksai.jpg",
+          "items": []
+        },
+        {
+          "name": "돌거북",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Krug_1783676771-Krug.jpg",
+          "items": []
+        },
+        {
+          "name": "감시자",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/AncientSentinel_1783677366-Sentinel.jpg",
+          "items": []
+        },
+        {
+          "name": "시비르",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Sivir_1783676900-Sivir.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/InfinityEdge_1710231787-infinity_edge.png",
+            "https://cdn.lolchess.gg/upload/images/items/Guardbreaker_1710231640-stridebreaker.png",
+            "https://cdn.lolchess.gg/upload/images/items/RedBuffItem_1700526699-redbuff.png"
+          ]
+        },
+        {
+          "name": "코그모",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/KogMaw_1783677131-KogMaw.jpg",
+          "items": []
+        },
+        {
+          "name": "불타는 묘목",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Cinderling_1783677059-Cinderling.jpg",
+          "items": []
+        },
+        {
+          "name": "애쉬",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ashe_1783676949-Ashe.jpg",
+          "items": []
+        }
+      ],
+      "champ_names": [
+        "말파이트",
+        "니달리",
+        "렉사이",
+        "돌거북",
+        "감시자",
+        "시비르",
+        "코그모",
+        "불타는 묘목",
+        "애쉬"
+      ],
+      "link": "https://lolchess.gg/builder?deck=56ff249a71b6c9fb56d7f51e6af95c9d7e8373d3"
     },
     {
       "name": "사냥꾼 시비르 아무무",
@@ -586,80 +794,6 @@
       "link": "https://lolchess.gg/builder?deck=9b263a3fb17699d3bbde03d43a78c5aa35406520"
     },
     {
-      "name": "사냥꾼 시비르 말파이트",
-      "champions": [
-        {
-          "name": "말파이트",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Malphite_1783676849-Malphite.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
-            "https://cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png"
-          ]
-        },
-        {
-          "name": "니달리",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Nidalee_1783676756-Nidalee.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/InfinityEdge_1710231787-infinity_edge.png",
-            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
-            "https://cdn.lolchess.gg/upload/images/items/SteraksGage_1693041113-3053_steraks_gage.png"
-          ]
-        },
-        {
-          "name": "렉사이",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/RekSai_1783676815-Reksai.jpg",
-          "items": []
-        },
-        {
-          "name": "돌거북",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Krug_1783676771-Krug.jpg",
-          "items": []
-        },
-        {
-          "name": "감시자",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/AncientSentinel_1783677366-Sentinel.jpg",
-          "items": []
-        },
-        {
-          "name": "시비르",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Sivir_1783676900-Sivir.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/InfinityEdge_1710231787-infinity_edge.png",
-            "https://cdn.lolchess.gg/upload/images/items/Guardbreaker_1710231640-stridebreaker.png",
-            "https://cdn.lolchess.gg/upload/images/items/RedBuffItem_1700526699-redbuff.png"
-          ]
-        },
-        {
-          "name": "코그모",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/KogMaw_1783677131-KogMaw.jpg",
-          "items": []
-        },
-        {
-          "name": "불타는 묘목",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Cinderling_1783677059-Cinderling.jpg",
-          "items": []
-        },
-        {
-          "name": "애쉬",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ashe_1783676949-Ashe.jpg",
-          "items": []
-        }
-      ],
-      "champ_names": [
-        "말파이트",
-        "니달리",
-        "렉사이",
-        "돌거북",
-        "감시자",
-        "시비르",
-        "코그모",
-        "불타는 묘목",
-        "애쉬"
-      ],
-      "link": "https://lolchess.gg/builder?deck=56ff249a71b6c9fb56d7f51e6af95c9d7e8373d3"
-    },
-    {
       "name": "전쟁기계 자이라",
       "champions": [
         {
@@ -736,77 +870,7 @@
       "link": "https://lolchess.gg/builder?deck=392566b48acdec58e57ad44d2d02fba04632c621"
     },
     {
-      "name": "나무정령 베이가",
-      "champions": [
-        {
-          "name": "오른",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ornn_1783676965-Ornn.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
-            "https://cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png"
-          ]
-        },
-        {
-          "name": "돌껍질 나무",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/StonebarkTree_1785316566-StonebarkTree.png",
-          "items": []
-        },
-        {
-          "name": "르블랑",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/LeBlanc_1783676828-Leblanc.jpg",
-          "items": []
-        },
-        {
-          "name": "생명꽃",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Lifebloom_1785316584-Lifebloom.png",
-          "items": []
-        },
-        {
-          "name": "베이가",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Veigar_1783676874-Veigar.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/images/tft/item/BlueBuff.png",
-            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
-            "https://cdn.lolchess.gg/upload/images/items/PBEDawncore_1752038401-Dawncore.png"
-          ]
-        },
-        {
-          "name": "카시오페아",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Cassiopeia_1783677081-Cassiopeia.jpg",
-          "items": []
-        },
-        {
-          "name": "피들스틱",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Fiddlesticks_1783677159-Fiddlesticks.jpg",
-          "items": []
-        },
-        {
-          "name": "알리스타",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Alistar_1783676943-Alistar.jpg",
-          "items": []
-        },
-        {
-          "name": "렉사이",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/RekSai_1783676815-Reksai.jpg",
-          "items": []
-        }
-      ],
-      "champ_names": [
-        "오른",
-        "돌껍질 나무",
-        "르블랑",
-        "생명꽃",
-        "베이가",
-        "카시오페아",
-        "피들스틱",
-        "알리스타",
-        "렉사이"
-      ],
-      "link": "https://lolchess.gg/builder?deck=cff64403e21c354a5f9aae7523c46984382ac03f"
-    },
-    {
-      "name": "개화 밸류 v1",
+      "name": "개화 애쉬 시비르",
       "champions": [
         {
           "name": "세트",
@@ -884,7 +948,7 @@
       "link": "https://lolchess.gg/builder?deck=ac567beeb5049dcf724dd6d267a236b51bfe00d5"
     },
     {
-      "name": "개화 밸류 v2",
+      "name": "개화 애쉬 알룬",
       "champions": [
         {
           "name": "람머스",
@@ -964,6 +1028,96 @@
       "link": "https://lolchess.gg/builder?deck=f7cbb31f69f9ca6fa342a2c284691492874fa966"
     },
     {
+      "name": "고밸류 드레이븐",
+      "champions": [
+        {
+          "name": "돌껍질 나무",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/StonebarkTree_1785316566-StonebarkTree.png",
+          "items": []
+        },
+        {
+          "name": "타릭",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Taric_1783677144-Taric.jpg",
+          "items": []
+        },
+        {
+          "name": "알리스타",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Alistar_1783676943-Alistar.jpg",
+          "items": []
+        },
+        {
+          "name": "아무무",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Amumu_1783676909-Amumu.jpg",
+          "items": []
+        },
+        {
+          "name": "케넨",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Kennen_1783677113-Kennen.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png"
+          ]
+        },
+        {
+          "name": "마오카이",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Maokai_1783676844-Maokai.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
+            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
+            "https://cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png"
+          ]
+        },
+        {
+          "name": "나르",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Gnar_1783676749-Gnar.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png"
+          ]
+        },
+        {
+          "name": "아이번",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ivern_1783676914-Ivern.jpg",
+          "items": []
+        },
+        {
+          "name": "생명꽃",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Lifebloom_1785316584-Lifebloom.png",
+          "items": []
+        },
+        {
+          "name": "이즈리얼",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ezreal_1783676984-Ezreal.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/LordsEdge_1710227794-death_blade.png",
+            "https://cdn.lolchess.gg/upload/images/items/LastWhisper_1710227918-last_whisper.png",
+            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png"
+          ]
+        },
+        {
+          "name": "드레이븐",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Draven_1783676787-Draven.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1710231593-guinsoos_rageblade.png",
+            "https://cdn.lolchess.gg/upload/images/items/RunaansHurricane_1748474476-54e36c2efc36a585799d963fccb76e10f8d51da6-512x512.png",
+            "https://cdn.lolchess.gg/upload/images/items/RunaansHurricane_1748474476-54e36c2efc36a585799d963fccb76e10f8d51da6-512x512.png"
+          ]
+        }
+      ],
+      "champ_names": [
+        "돌껍질 나무",
+        "타릭",
+        "알리스타",
+        "아무무",
+        "케넨",
+        "마오카이",
+        "나르",
+        "아이번",
+        "생명꽃",
+        "이즈리얼",
+        "드레이븐"
+      ],
+      "link": "https://lolchess.gg/builder?deck=2b676d41ee6feee805a31283c116eb212c81a60a"
+    },
+    {
       "name": "처형자 소라카",
       "champions": [
         {
@@ -1040,94 +1194,15 @@
       "link": "https://lolchess.gg/builder?deck=53129beca56d31ae2fc3aab79160122f69ecd3ac"
     },
     {
-      "name": "장로 드래곤 드레이븐",
+      "name": "처형자 세트",
       "champions": [
         {
-          "name": "타릭",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Taric_1783677144-Taric.jpg",
-          "items": []
-        },
-        {
-          "name": "감시자",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/AncientSentinel_1783677366-Sentinel.jpg",
-          "items": []
-        },
-        {
-          "name": "아무무",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Amumu_1783676909-Amumu.jpg",
-          "items": []
-        },
-        {
-          "name": "마오카이",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Maokai_1783676844-Maokai.jpg",
+          "name": "세트",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Sett_1783676885-Sett.jpg",
           "items": [
             "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
-            "https://cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png"
-          ]
-        },
-        {
-          "name": "케넨",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Kennen_1783677113-Kennen.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png"
-          ]
-        },
-        {
-          "name": "장로 드래곤",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TheElderDragon_1783677052-ElderDragon.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/InfinityEdge_1710231787-infinity_edge.png",
-            "https://cdn.lolchess.gg/upload/images/items/LastWhisper_1710227918-last_whisper.png",
-            "https://cdn.lolchess.gg/upload/images/items/Guardbreaker_1710231640-stridebreaker.png"
-          ]
-        },
-        {
-          "name": "아이번",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ivern_1783676914-Ivern.jpg",
-          "items": []
-        },
-        {
-          "name": "드레이븐",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Draven_1783676787-Draven.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1710231593-guinsoos_rageblade.png",
-            "https://cdn.lolchess.gg/upload/images/items/RunaansHurricane_1748474476-54e36c2efc36a585799d963fccb76e10f8d51da6-512x512.png",
-            "https://cdn.lolchess.gg/upload/images/items/RunaansHurricane_1748474476-54e36c2efc36a585799d963fccb76e10f8d51da6-512x512.png"
-          ]
-        }
-      ],
-      "champ_names": [
-        "타릭",
-        "감시자",
-        "아무무",
-        "마오카이",
-        "케넨",
-        "장로 드래곤",
-        "아이번",
-        "드레이븐"
-      ],
-      "link": "https://lolchess.gg/builder?deck=301fa9a3daba63f50ac57f4904930721109a3526"
-    },
-    {
-      "name": "7협곡야수 장로 드래곤",
-      "champions": [
-        {
-          "name": "돌거북",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Krug_1783676771-Krug.jpg",
-          "items": [
             "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
             "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png"
-          ]
-        },
-        {
-          "name": "장로 드래곤",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TheElderDragon_1783677052-ElderDragon.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/InfinityEdge_1710231787-infinity_edge.png",
-            "https://cdn.lolchess.gg/upload/images/items/LastWhisper_1710227918-last_whisper.png",
-            "https://cdn.lolchess.gg/upload/images/items/Guardbreaker_1710231640-stridebreaker.png"
           ]
         },
         {
@@ -1136,182 +1211,77 @@
           "items": []
         },
         {
-          "name": "타릭",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Taric_1783677144-Taric.jpg",
+          "name": "케넨",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Kennen_1783677113-Kennen.jpg",
           "items": []
         },
         {
-          "name": "덩굴정령",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Brambleback_1783677203-Brambleback.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png",
-            "https://cdn.lolchess.gg/upload/images/items/SteraksGage_1693041113-3053_steraks_gage.png",
-            "https://cdn.lolchess.gg/upload/images/items/GiantSlayer_1670462997-giant_slayer.png"
-          ]
-        },
-        {
-          "name": "어스름늑대",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Murkwolf_1783676955-MurkWolf.jpg",
+          "name": "돌껍질 나무",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/StonebarkTree_1785316566-StonebarkTree.png",
           "items": []
         },
-        {
-          "name": "감시자",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/AncientSentinel_1783677366-Sentinel.jpg",
-          "items": []
-        },
-        {
-          "name": "조약돌",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Pebbles_1783677606-Sentry.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/images/tft/item/BlueBuff.png",
-            "https://cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png",
-            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png"
-          ]
-        }
-      ],
-      "champ_names": [
-        "돌거북",
-        "장로 드래곤",
-        "나르",
-        "타릭",
-        "덩굴정령",
-        "어스름늑대",
-        "감시자",
-        "조약돌"
-      ],
-      "link": "https://lolchess.gg/builder?deck=c354d0ba9d2db669f8364837f6bd2048d707438b"
-    },
-    {
-      "name": "[유물] 마스터 이 렝가",
-      "champions": [
-        {
-          "name": "돌거북",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Krug_1783676771-Krug.jpg",
-          "items": []
-        },
-        {
-          "name": "세트",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Sett_1783676885-Sett.jpg",
-          "items": []
-        },
-        {
-          "name": "요릭",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Yorick_1783676969-Yorick.jpg",
-          "items": []
-        },
-        {
-          "name": "렝가",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Rengar_1783676823-Rengar.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1710231593-guinsoos_rageblade.png",
-            "https://cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png",
-            "https://cdn.lolchess.gg/upload/images/items/TitansResolve_1640058512.png"
-          ]
-        },
-        {
-          "name": "바이",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Vi_1783676869-VI.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png",
-            "https://cdn.lolchess.gg/upload/images/items/Evenshroud_1693041191-3001_support_lunari.png",
-            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png"
-          ]
-        },
-        {
-          "name": "니달리",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Nidalee_1783676756-Nidalee.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/InfinityEdge_1710231787-infinity_edge.png",
-            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
-            "https://cdn.lolchess.gg/upload/images/items/SteraksGage_1693041113-3053_steraks_gage.png"
-          ]
-        },
-        {
-          "name": "마스터 이",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/MasterYi_1783676839-MasterYi.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png",
-            "https://cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1710231593-guinsoos_rageblade.png",
-            "https://cdn.lolchess.gg/upload/images/items/WitsEnd_1714029999-tft_item_artifact_witsend.png"
-          ]
-        }
-      ],
-      "champ_names": [
-        "돌거북",
-        "세트",
-        "요릭",
-        "렝가",
-        "바이",
-        "니달리",
-        "마스터 이"
-      ],
-      "link": "https://lolchess.gg/builder?deck=f13e24999d4ad1d87cb7cda4442314181ab68984"
-    },
-    {
-      "name": "카밀 아칼리 리롤",
-      "champions": [
         {
           "name": "오른",
           "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ornn_1783676965-Ornn.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
-            "https://cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png"
-          ]
+          "items": []
         },
         {
-          "name": "바루스",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Varus_1783676858-Varus.jpg",
+          "name": "피들스틱",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Fiddlesticks_1783677159-Fiddlesticks.jpg",
+          "items": []
+        },
+        {
+          "name": "소라카",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Soraka_1783676890-Soraka.jpg",
           "items": [
             "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
+            "https://cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png",
+            "https://cdn.lolchess.gg/upload/images/items/LudensEcho_1667202278-archangel_staff.png"
+          ]
+        },
+        {
+          "name": "아리",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ahri_1783676904-Ahri.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/Morellonomicon_1710231609-morellonomicon.png",
+            "https://cdn.lolchess.gg/upload/images/items/VoidStaff_1747207480-6f3e0c3861b876d768c4f9b501fbaabc585c3bc3-512x512.png",
+            "https://cdn.lolchess.gg/upload/images/items/AdaptiveHelm_1693209131-6665_tank_t4_jakshotheprotean.png"
+          ]
+        },
+        {
+          "name": "이즈리얼",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ezreal_1783676984-Ezreal.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/LordsEdge_1710227794-death_blade.png",
             "https://cdn.lolchess.gg/upload/images/items/LastWhisper_1710227918-last_whisper.png",
-            "https://cdn.lolchess.gg/upload/images/items/InfinityEdge_1710231787-infinity_edge.png"
+            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png"
           ]
         },
         {
-          "name": "카밀",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Camille_1783677076-Camille.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/InfinityEdge_1710231787-infinity_edge.png",
-            "https://cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png",
-            "https://cdn.lolchess.gg/upload/images/items/SteraksGage_1693041113-3053_steraks_gage.png"
-          ]
-        },
-        {
-          "name": "아칼리",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Akali_1783676925-Akali.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
-            "https://cdn.lolchess.gg/upload/images/items/HandofJustice_1710227464-hand_of_justice.png",
-            "https://cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png"
-          ]
-        },
-        {
-          "name": "세주아니",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Sejuani_1783676879-Sejuani.jpg",
+          "name": "유나라",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Yunara_1783676979-Yunara.jpg",
           "items": []
         },
         {
-          "name": "레오나",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Leona_1783676811-Leona.jpg",
-          "items": []
-        },
-        {
-          "name": "케일",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Kayle_1783677127-Kayle.jpg",
+          "name": "생명꽃",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Lifebloom_1785316584-Lifebloom.png",
           "items": []
         }
       ],
       "champ_names": [
+        "세트",
+        "나르",
+        "케넨",
+        "돌껍질 나무",
         "오른",
-        "바루스",
-        "카밀",
-        "아칼리",
-        "세주아니",
-        "레오나",
-        "케일"
+        "피들스틱",
+        "소라카",
+        "아리",
+        "이즈리얼",
+        "유나라",
+        "생명꽃"
       ],
-      "link": "https://lolchess.gg/builder?deck=5aa6e80a3310784133b747c529d6b6e0899ec3d8"
+      "link": "https://lolchess.gg/builder?deck=75694e835402faf1e8e365b4f34bbb73a100c6d1"
     },
     {
       "name": "사냥꾼 케이틀린 리롤",
@@ -1380,6 +1350,72 @@
         "애쉬"
       ],
       "link": "https://lolchess.gg/builder?deck=4cd8598a1ad5c0e09cde4f2527dcd54d1dfb2968"
+    },
+    {
+      "name": "카밀 아칼리 리롤",
+      "champions": [
+        {
+          "name": "오른",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ornn_1783676965-Ornn.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
+            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
+            "https://cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png"
+          ]
+        },
+        {
+          "name": "바루스",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Varus_1783676858-Varus.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
+            "https://cdn.lolchess.gg/upload/images/items/LastWhisper_1710227918-last_whisper.png",
+            "https://cdn.lolchess.gg/upload/images/items/InfinityEdge_1710231787-infinity_edge.png"
+          ]
+        },
+        {
+          "name": "카밀",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Camille_1783677076-Camille.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/InfinityEdge_1710231787-infinity_edge.png",
+            "https://cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png",
+            "https://cdn.lolchess.gg/upload/images/items/SteraksGage_1693041113-3053_steraks_gage.png"
+          ]
+        },
+        {
+          "name": "아칼리",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Akali_1783676925-Akali.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
+            "https://cdn.lolchess.gg/upload/images/items/HandofJustice_1710227464-hand_of_justice.png",
+            "https://cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png"
+          ]
+        },
+        {
+          "name": "세주아니",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Sejuani_1783676879-Sejuani.jpg",
+          "items": []
+        },
+        {
+          "name": "레오나",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Leona_1783676811-Leona.jpg",
+          "items": []
+        },
+        {
+          "name": "케일",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Kayle_1783677127-Kayle.jpg",
+          "items": []
+        }
+      ],
+      "champ_names": [
+        "오른",
+        "바루스",
+        "카밀",
+        "아칼리",
+        "세주아니",
+        "레오나",
+        "케일"
+      ],
+      "link": "https://lolchess.gg/builder?deck=5aa6e80a3310784133b747c529d6b6e0899ec3d8"
     },
     {
       "name": "햇빛 유나라 리롤",
@@ -1528,6 +1564,288 @@
         "케일"
       ],
       "link": "https://lolchess.gg/builder?deck=e75f15fa75a321f00da05ba0eff3c05cc0c60c73"
+    },
+    {
+      "name": "[유물] 마스터 이 렝가",
+      "champions": [
+        {
+          "name": "돌거북",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Krug_1783676771-Krug.jpg",
+          "items": []
+        },
+        {
+          "name": "세트",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Sett_1783676885-Sett.jpg",
+          "items": []
+        },
+        {
+          "name": "요릭",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Yorick_1783676969-Yorick.jpg",
+          "items": []
+        },
+        {
+          "name": "렝가",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Rengar_1783676823-Rengar.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1710231593-guinsoos_rageblade.png",
+            "https://cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png",
+            "https://cdn.lolchess.gg/upload/images/items/TitansResolve_1640058512.png"
+          ]
+        },
+        {
+          "name": "바이",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Vi_1783676869-VI.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png",
+            "https://cdn.lolchess.gg/upload/images/items/Evenshroud_1693041191-3001_support_lunari.png",
+            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png"
+          ]
+        },
+        {
+          "name": "니달리",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Nidalee_1783676756-Nidalee.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/InfinityEdge_1710231787-infinity_edge.png",
+            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
+            "https://cdn.lolchess.gg/upload/images/items/SteraksGage_1693041113-3053_steraks_gage.png"
+          ]
+        },
+        {
+          "name": "마스터 이",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/MasterYi_1783676839-MasterYi.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png",
+            "https://cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1710231593-guinsoos_rageblade.png",
+            "https://cdn.lolchess.gg/upload/images/items/WitsEnd_1714029999-tft_item_artifact_witsend.png"
+          ]
+        }
+      ],
+      "champ_names": [
+        "돌거북",
+        "세트",
+        "요릭",
+        "렝가",
+        "바이",
+        "니달리",
+        "마스터 이"
+      ],
+      "link": "https://lolchess.gg/builder?deck=f13e24999d4ad1d87cb7cda4442314181ab68984"
+    },
+    {
+      "name": "7협곡야수 장로 드래곤",
+      "champions": [
+        {
+          "name": "돌거북",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Krug_1783676771-Krug.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
+            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
+            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png"
+          ]
+        },
+        {
+          "name": "장로 드래곤",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/TheElderDragon_1783677052-ElderDragon.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/InfinityEdge_1710231787-infinity_edge.png",
+            "https://cdn.lolchess.gg/upload/images/items/LastWhisper_1710227918-last_whisper.png",
+            "https://cdn.lolchess.gg/upload/images/items/Guardbreaker_1710231640-stridebreaker.png"
+          ]
+        },
+        {
+          "name": "나르",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Gnar_1783676749-Gnar.jpg",
+          "items": []
+        },
+        {
+          "name": "타릭",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Taric_1783677144-Taric.jpg",
+          "items": []
+        },
+        {
+          "name": "덩굴정령",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Brambleback_1783677203-Brambleback.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png",
+            "https://cdn.lolchess.gg/upload/images/items/SteraksGage_1693041113-3053_steraks_gage.png",
+            "https://cdn.lolchess.gg/upload/images/items/GiantSlayer_1670462997-giant_slayer.png"
+          ]
+        },
+        {
+          "name": "어스름늑대",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Murkwolf_1783676955-MurkWolf.jpg",
+          "items": []
+        },
+        {
+          "name": "감시자",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/AncientSentinel_1783677366-Sentinel.jpg",
+          "items": []
+        },
+        {
+          "name": "조약돌",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Pebbles_1783677606-Sentry.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/images/tft/item/BlueBuff.png",
+            "https://cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png",
+            "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png"
+          ]
+        }
+      ],
+      "champ_names": [
+        "돌거북",
+        "장로 드래곤",
+        "나르",
+        "타릭",
+        "덩굴정령",
+        "어스름늑대",
+        "감시자",
+        "조약돌"
+      ],
+      "link": "https://lolchess.gg/builder?deck=c354d0ba9d2db669f8364837f6bd2048d707438b"
+    },
+    {
+      "name": "고밸류 알룬",
+      "champions": [
+        {
+          "name": "아무무",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Amumu_1783676909-Amumu.jpg",
+          "items": []
+        },
+        {
+          "name": "마오카이",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Maokai_1783676844-Maokai.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
+            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
+            "https://cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png"
+          ]
+        },
+        {
+          "name": "타릭",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Taric_1783677144-Taric.jpg",
+          "items": []
+        },
+        {
+          "name": "다이애나",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Diana_1783676762-Diana.jpg",
+          "items": []
+        },
+        {
+          "name": "케넨",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Kennen_1783677113-Kennen.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png"
+          ]
+        },
+        {
+          "name": "피들스틱",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Fiddlesticks_1783677159-Fiddlesticks.jpg",
+          "items": []
+        },
+        {
+          "name": "럭스 (달빛)",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Lux_1783676806-Lux.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
+            "https://cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png",
+            "https://cdn.lolchess.gg/upload/images/items/VoidStaff_1747207480-6f3e0c3861b876d768c4f9b501fbaabc585c3bc3-512x512.png"
+          ]
+        },
+        {
+          "name": "아이번",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ivern_1783676914-Ivern.jpg",
+          "items": []
+        },
+        {
+          "name": "알룬",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Alune_1783676936-Alune.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/images/tft/item/BlueBuff.png",
+            "https://cdn.lolchess.gg/upload/images/items/LudensEcho_1667202278-archangel_staff.png",
+            "https://cdn.lolchess.gg/upload/images/items/AdaptiveHelm_1693209131-6665_tank_t4_jakshotheprotean.png"
+          ]
+        }
+      ],
+      "champ_names": [
+        "아무무",
+        "마오카이",
+        "타릭",
+        "다이애나",
+        "케넨",
+        "피들스틱",
+        "럭스 (달빛)",
+        "아이번",
+        "알룬"
+      ],
+      "link": "https://lolchess.gg/builder?deck=b21754cfa96db92918a4d94a3720e1060e40366c"
+    },
+    {
+      "name": "엄호대 카시오페아",
+      "champions": [
+        {
+          "name": "레오나",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Leona_1783676811-Leona.jpg",
+          "items": []
+        },
+        {
+          "name": "오른",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ornn_1783676965-Ornn.jpg",
+          "items": []
+        },
+        {
+          "name": "쉔",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Shen_1783676895-Shen.jpg",
+          "items": []
+        },
+        {
+          "name": "릴리아",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Lillia_1783676834-Lillia.jpg",
+          "items": []
+        },
+        {
+          "name": "피들스틱",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Fiddlesticks_1783677159-Fiddlesticks.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png",
+            "https://cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png",
+            "https://cdn.lolchess.gg/upload/images/items/Redemption_1748475217-5e0668acd02f73dfc316d1e02d2286f37149da08-512x512.png"
+          ]
+        },
+        {
+          "name": "람머스",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Rammus_1783676801-Rammus.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
+            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
+            "https://cdn.lolchess.gg/upload/images/items/SteadfastHeart_1699383455-3084_tank_t4_heartsteel.png"
+          ]
+        },
+        {
+          "name": "소라카",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Soraka_1783676890-Soraka.jpg",
+          "items": []
+        },
+        {
+          "name": "카시오페아",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Cassiopeia_1783677081-Cassiopeia.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/LudensEcho_1667202278-archangel_staff.png",
+            "https://cdn.lolchess.gg/images/tft/item/BlueBuff.png",
+            "https://cdn.lolchess.gg/upload/images/items/HextechGunblade_1640058876.png"
+          ]
+        }
+      ],
+      "champ_names": [
+        "레오나",
+        "오른",
+        "쉔",
+        "릴리아",
+        "피들스틱",
+        "람머스",
+        "소라카",
+        "카시오페아"
+      ],
+      "link": "https://lolchess.gg/builder?deck=efe61c83d4cd7114677a34af96cd680d0eac12e2"
     },
     {
       "name": "나무정령 아펠리오스",
@@ -1704,240 +2022,6 @@
         "자이라"
       ],
       "link": "https://lolchess.gg/builder?deck=19efa317818b88de5a967f024e1c7dadd358a2b9"
-    },
-    {
-      "name": "고밸류 알룬",
-      "champions": [
-        {
-          "name": "아무무",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Amumu_1783676909-Amumu.jpg",
-          "items": []
-        },
-        {
-          "name": "마오카이",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Maokai_1783676844-Maokai.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
-            "https://cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png"
-          ]
-        },
-        {
-          "name": "타릭",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Taric_1783677144-Taric.jpg",
-          "items": []
-        },
-        {
-          "name": "다이애나",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Diana_1783676762-Diana.jpg",
-          "items": []
-        },
-        {
-          "name": "케넨",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Kennen_1783677113-Kennen.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png"
-          ]
-        },
-        {
-          "name": "피들스틱",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Fiddlesticks_1783677159-Fiddlesticks.jpg",
-          "items": []
-        },
-        {
-          "name": "럭스 (달빛)",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Lux_1783676806-Lux.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
-            "https://cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png",
-            "https://cdn.lolchess.gg/upload/images/items/VoidStaff_1747207480-6f3e0c3861b876d768c4f9b501fbaabc585c3bc3-512x512.png"
-          ]
-        },
-        {
-          "name": "아이번",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ivern_1783676914-Ivern.jpg",
-          "items": []
-        },
-        {
-          "name": "알룬",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Alune_1783676936-Alune.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/images/tft/item/BlueBuff.png",
-            "https://cdn.lolchess.gg/upload/images/items/LudensEcho_1667202278-archangel_staff.png",
-            "https://cdn.lolchess.gg/upload/images/items/AdaptiveHelm_1693209131-6665_tank_t4_jakshotheprotean.png"
-          ]
-        }
-      ],
-      "champ_names": [
-        "아무무",
-        "마오카이",
-        "타릭",
-        "다이애나",
-        "케넨",
-        "피들스틱",
-        "럭스 (달빛)",
-        "아이번",
-        "알룬"
-      ],
-      "link": "https://lolchess.gg/builder?deck=b21754cfa96db92918a4d94a3720e1060e40366c"
-    },
-    {
-      "name": "처형자 세트",
-      "champions": [
-        {
-          "name": "세트",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Sett_1783676885-Sett.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png"
-          ]
-        },
-        {
-          "name": "나르",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Gnar_1783676749-Gnar.jpg",
-          "items": []
-        },
-        {
-          "name": "케넨",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Kennen_1783677113-Kennen.jpg",
-          "items": []
-        },
-        {
-          "name": "돌껍질 나무",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/StonebarkTree_1785316566-StonebarkTree.png",
-          "items": []
-        },
-        {
-          "name": "오른",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ornn_1783676965-Ornn.jpg",
-          "items": []
-        },
-        {
-          "name": "피들스틱",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Fiddlesticks_1783677159-Fiddlesticks.jpg",
-          "items": []
-        },
-        {
-          "name": "소라카",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Soraka_1783676890-Soraka.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
-            "https://cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png",
-            "https://cdn.lolchess.gg/upload/images/items/LudensEcho_1667202278-archangel_staff.png"
-          ]
-        },
-        {
-          "name": "아리",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ahri_1783676904-Ahri.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/Morellonomicon_1710231609-morellonomicon.png",
-            "https://cdn.lolchess.gg/upload/images/items/VoidStaff_1747207480-6f3e0c3861b876d768c4f9b501fbaabc585c3bc3-512x512.png",
-            "https://cdn.lolchess.gg/upload/images/items/AdaptiveHelm_1693209131-6665_tank_t4_jakshotheprotean.png"
-          ]
-        },
-        {
-          "name": "이즈리얼",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ezreal_1783676984-Ezreal.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/LordsEdge_1710227794-death_blade.png",
-            "https://cdn.lolchess.gg/upload/images/items/LastWhisper_1710227918-last_whisper.png",
-            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png"
-          ]
-        },
-        {
-          "name": "유나라",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Yunara_1783676979-Yunara.jpg",
-          "items": []
-        },
-        {
-          "name": "생명꽃",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Lifebloom_1785316584-Lifebloom.png",
-          "items": []
-        }
-      ],
-      "champ_names": [
-        "세트",
-        "나르",
-        "케넨",
-        "돌껍질 나무",
-        "오른",
-        "피들스틱",
-        "소라카",
-        "아리",
-        "이즈리얼",
-        "유나라",
-        "생명꽃"
-      ],
-      "link": "https://lolchess.gg/builder?deck=75694e835402faf1e8e365b4f34bbb73a100c6d1"
-    },
-    {
-      "name": "엄호대 카시오페아",
-      "champions": [
-        {
-          "name": "레오나",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Leona_1783676811-Leona.jpg",
-          "items": []
-        },
-        {
-          "name": "오른",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ornn_1783676965-Ornn.jpg",
-          "items": []
-        },
-        {
-          "name": "쉔",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Shen_1783676895-Shen.jpg",
-          "items": []
-        },
-        {
-          "name": "릴리아",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Lillia_1783676834-Lillia.jpg",
-          "items": []
-        },
-        {
-          "name": "피들스틱",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Fiddlesticks_1783677159-Fiddlesticks.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png",
-            "https://cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png",
-            "https://cdn.lolchess.gg/upload/images/items/Redemption_1748475217-5e0668acd02f73dfc316d1e02d2286f37149da08-512x512.png"
-          ]
-        },
-        {
-          "name": "람머스",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Rammus_1783676801-Rammus.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
-            "https://cdn.lolchess.gg/upload/images/items/SteadfastHeart_1699383455-3084_tank_t4_heartsteel.png"
-          ]
-        },
-        {
-          "name": "소라카",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Soraka_1783676890-Soraka.jpg",
-          "items": []
-        },
-        {
-          "name": "카시오페아",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Cassiopeia_1783677081-Cassiopeia.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/LudensEcho_1667202278-archangel_staff.png",
-            "https://cdn.lolchess.gg/images/tft/item/BlueBuff.png",
-            "https://cdn.lolchess.gg/upload/images/items/HextechGunblade_1640058876.png"
-          ]
-        }
-      ],
-      "champ_names": [
-        "레오나",
-        "오른",
-        "쉔",
-        "릴리아",
-        "피들스틱",
-        "람머스",
-        "소라카",
-        "카시오페아"
-      ],
-      "link": "https://lolchess.gg/builder?deck=efe61c83d4cd7114677a34af96cd680d0eac12e2"
     },
     {
       "name": "[상징] 치명적인꽃 베이가",
