@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07 05:15:10",
+  "updated_at": "2026-11-10 06:34:25",
   "decks": [
     {
       "name": "유물별 챔피언 요약",
@@ -999,6 +999,82 @@
       "link": "https://lolchess.gg/builder?deck=6f4a02695105e32bf3b19253341230ff31e4001f"
     },
     {
+      "name": "고밸류 알룬",
+      "champions": [
+        {
+          "name": "아무무",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Amumu_1783676909-Amumu.jpg",
+          "items": []
+        },
+        {
+          "name": "마오카이",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Maokai_1783676844-Maokai.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
+            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
+            "https://cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png"
+          ]
+        },
+        {
+          "name": "타릭",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Taric_1783677144-Taric.jpg",
+          "items": []
+        },
+        {
+          "name": "다이애나",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Diana_1783676762-Diana.jpg",
+          "items": []
+        },
+        {
+          "name": "케넨",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Kennen_1783677113-Kennen.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png"
+          ]
+        },
+        {
+          "name": "피들스틱",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Fiddlesticks_1783677159-Fiddlesticks.jpg",
+          "items": []
+        },
+        {
+          "name": "럭스 (달빛)",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Lux_1783676806-Lux.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
+            "https://cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png",
+            "https://cdn.lolchess.gg/upload/images/items/VoidStaff_1747207480-6f3e0c3861b876d768c4f9b501fbaabc585c3bc3-512x512.png"
+          ]
+        },
+        {
+          "name": "아이번",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ivern_1783676914-Ivern.jpg",
+          "items": []
+        },
+        {
+          "name": "알룬",
+          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Alune_1783676936-Alune.jpg",
+          "items": [
+            "https://cdn.lolchess.gg/images/tft/item/BlueBuff.png",
+            "https://cdn.lolchess.gg/upload/images/items/LudensEcho_1667202278-archangel_staff.png",
+            "https://cdn.lolchess.gg/upload/images/items/AdaptiveHelm_1693209131-6665_tank_t4_jakshotheprotean.png"
+          ]
+        }
+      ],
+      "champ_names": [
+        "아무무",
+        "마오카이",
+        "타릭",
+        "다이애나",
+        "케넨",
+        "피들스틱",
+        "럭스 (달빛)",
+        "아이번",
+        "알룬"
+      ],
+      "link": "https://lolchess.gg/builder?deck=b21754cfa96db92918a4d94a3720e1060e40366c"
+    },
+    {
       "name": "나무정령 이즈리얼",
       "champions": [
         {
@@ -1835,82 +1911,6 @@
         "카시오페아"
       ],
       "link": "https://lolchess.gg/builder?deck=efe61c83d4cd7114677a34af96cd680d0eac12e2"
-    },
-    {
-      "name": "고밸류 알룬",
-      "champions": [
-        {
-          "name": "아무무",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Amumu_1783676909-Amumu.jpg",
-          "items": []
-        },
-        {
-          "name": "마오카이",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Maokai_1783676844-Maokai.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
-            "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
-            "https://cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png"
-          ]
-        },
-        {
-          "name": "타릭",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Taric_1783677144-Taric.jpg",
-          "items": []
-        },
-        {
-          "name": "다이애나",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Diana_1783676762-Diana.jpg",
-          "items": []
-        },
-        {
-          "name": "케넨",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Kennen_1783677113-Kennen.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png"
-          ]
-        },
-        {
-          "name": "피들스틱",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Fiddlesticks_1783677159-Fiddlesticks.jpg",
-          "items": []
-        },
-        {
-          "name": "럭스 (달빛)",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Lux_1783676806-Lux.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
-            "https://cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png",
-            "https://cdn.lolchess.gg/upload/images/items/VoidStaff_1747207480-6f3e0c3861b876d768c4f9b501fbaabc585c3bc3-512x512.png"
-          ]
-        },
-        {
-          "name": "아이번",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Ivern_1783676914-Ivern.jpg",
-          "items": []
-        },
-        {
-          "name": "알룬",
-          "image_url": "https://cdn.lolchess.gg/upload/images/champions/Alune_1783676936-Alune.jpg",
-          "items": [
-            "https://cdn.lolchess.gg/images/tft/item/BlueBuff.png",
-            "https://cdn.lolchess.gg/upload/images/items/LudensEcho_1667202278-archangel_staff.png",
-            "https://cdn.lolchess.gg/upload/images/items/AdaptiveHelm_1693209131-6665_tank_t4_jakshotheprotean.png"
-          ]
-        }
-      ],
-      "champ_names": [
-        "아무무",
-        "마오카이",
-        "타릭",
-        "다이애나",
-        "케넨",
-        "피들스틱",
-        "럭스 (달빛)",
-        "아이번",
-        "알룬"
-      ],
-      "link": "https://lolchess.gg/builder?deck=b21754cfa96db92918a4d94a3720e1060e40366c"
     },
     {
       "name": "달빛 케일 (일월식)",
